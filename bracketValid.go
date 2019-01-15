@@ -23,11 +23,9 @@ func bracketValid(s string) bool {
 	for {
 		l := len(s)
 
-
-		if l -1 <= i {
+		if l-1 <= i {
 			break
 		}
-
 
 		if m[string(s[i])] == string(s[i+1]) {
 			sArr := strings.Split(s, "")
@@ -36,14 +34,14 @@ func bracketValid(s string) bool {
 			sArr[i+1] = ""
 			s = strings.Join(sArr, "")
 			i = 0
-		}else {
+		} else {
 			i++
 		}
 	}
 
 	if len(s) != 0 {
 		return false
-	}else {
+	} else {
 		return true
 
 	}
