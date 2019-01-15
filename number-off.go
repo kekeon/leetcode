@@ -17,7 +17,6 @@ func number(n int) string {
 	m[1] = "1"
 	m[2] = "11"
 
-
 	rs := ""
 
 	if n <= 2 {
@@ -33,7 +32,7 @@ func number(n int) string {
 			v:   "1",
 		}
 
-		for j := 0; len(s) -1 > 0; j++ {
+		for j := 0; len(s)-1 > 0; j++ {
 
 			fmt.Println(j)
 			cs := string(s[j])
@@ -41,7 +40,7 @@ func number(n int) string {
 			if p.v != cs || len(s) == j+1 {
 				p.v = cs
 				p.num = j - p.num + 1
-				s = s[p.num:j+1]
+				s = s[p.num : j+1]
 				rs = rs + strconv.Itoa(p.num) + p.v
 			}
 		}

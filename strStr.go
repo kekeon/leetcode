@@ -8,7 +8,7 @@ func strStr(haystack string, needle string) int {
 	b := 0
 	n := len(needle)
 	h := len(haystack)
-	if n == 0 || (n == h && haystack == needle)  {
+	if n == 0 || (n == h && haystack == needle) {
 		return b
 	}
 
@@ -20,13 +20,10 @@ func strStr(haystack string, needle string) int {
 		return -1
 	}
 
-	i:=0
-	fmt.Println(h - n)
-	for  {
-		fmt.Println(i)
-		fmt.Println(haystack[i:i+n])
+	i := 0
+	for {
 
-		if i <= h - n {
+		if i <= h-n {
 
 			if i == h-n && haystack[i:i+n] != needle {
 				b = -1
@@ -36,7 +33,7 @@ func strStr(haystack string, needle string) int {
 				b = i
 				break
 			}
-		}else {
+		} else {
 			b = -1
 			break
 		}
@@ -49,6 +46,5 @@ func strStr(haystack string, needle string) int {
 
 func main() {
 	v := strStr("aaaa", "bba")
-	fmt.Println("==========")
 	fmt.Println(v)
 }
