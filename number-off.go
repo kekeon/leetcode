@@ -29,7 +29,7 @@ func number(n int) string {
 
 		p := sp{
 			num: 0,
-			v:   "1",
+			v:   "",
 		}
 
 		for j := 0; len(s)-1 > 0; j++ {
@@ -39,9 +39,12 @@ func number(n int) string {
 
 			if p.v != cs || len(s) == j+1 {
 				p.v = cs
-				p.num = j - p.num + 1
 				s = s[p.num : j+1]
+				p.num = j - p.num + 1
 				rs = rs + strconv.Itoa(p.num) + p.v
+				fmt.Println("===============")
+				fmt.Println(rs)
+				j = 0
 			}
 		}
 
@@ -51,6 +54,6 @@ func number(n int) string {
 }
 
 func main() {
-	v := number(3)
+	v := number(4)
 	fmt.Println(v)
 }
