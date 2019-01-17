@@ -29,22 +29,28 @@ func number(n int) string {
 
 		p := sp{
 			num: 0,
-			v:   "",
+			v:   string(s[0]),
 		}
 
-		for j := 0; len(s)-1 > 0; j++ {
+		for j := 0; len(s) > 0; j++ {
 
-			fmt.Println(j)
 			cs := string(s[j])
 
-			if p.v != cs || len(s) == j+1 {
+			if p.v != cs {
+
+				if( len(s) == j+1 ) {
+					s = ""
+					num := j - p.num
+					rs = rs + strconv.Itoa(num) + p.v
+					j = 0
+				}else {
+					num := j - p.num
+					s = s[p.num : j+1]
+					rs = rs + strconv.Itoa(num) + p.v
+					j = 0
+				}
 				p.v = cs
-				s = s[p.num : j+1]
-				p.num = j - p.num + 1
-				rs = rs + strconv.Itoa(p.num) + p.v
-				fmt.Println("===============")
-				fmt.Println(rs)
-				j = 0
+				p.num = j
 			}
 		}
 
