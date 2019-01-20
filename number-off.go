@@ -52,6 +52,8 @@ func number(n int) string {
 				p.v = cs
 				p.num = j
 			}else if len(s) == j+1 {
+
+				
 				break
 			}
 		}
