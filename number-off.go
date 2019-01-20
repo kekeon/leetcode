@@ -33,12 +33,12 @@ func number(n int) string {
 		}
 
 		for j := 0; len(s) > 0; j++ {
-
+			fmt.Println(s)
 			cs := string(s[j])
 
 			if p.v != cs {
-
-				if( len(s) == j+1 ) {
+				fmt.Println(i)
+				if len(s) == j+1  {
 					s = ""
 					num := j - p.num
 					rs = rs + strconv.Itoa(num) + p.v
@@ -51,6 +51,8 @@ func number(n int) string {
 				}
 				p.v = cs
 				p.num = j
+			}else if len(s) == j+1 {
+				break
 			}
 		}
 
