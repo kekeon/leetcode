@@ -10,7 +10,7 @@ type sp struct {
 	v   string
 }
 
-func number(n int) string {
+func countAndSay(n int) string {
 
 	m := make(map[int]string)
 
@@ -23,8 +23,9 @@ func number(n int) string {
 		return m[n]
 	}
 
-	for i := 3; i <= n; i++ {
+	for i := 3; i <= n ; i++ {
 		s := m[i-1]
+
 		p := sp{
 			num: 0,
 			v:   string(s[0]),
@@ -32,46 +33,45 @@ func number(n int) string {
 
 		rs = ""
 		for j := 1; len(s) > 0; j++ {
-
-			fmt.Println("--------------")
-			fmt.Println(rs)
-			fmt.Println(j)
-			fmt.Println(s)
-			fmt.Println(i)
-			fmt.Println(p.v)
-			fmt.Println("------end--------")
 			cs := string(s[j])
 
 			if p.v != cs {
 				if len(s) == j+1  {
-
-					num := j+1 - p.num
-					rs = rs + strconv.Itoa(num) + string(s[j])
-					j = 0
-					s = ""
+					if p.v == string(s[j]) {
+						num := j+1 - p.num
+						rs = rs + strconv.Itoa(num) + string(s[j])
+						j = 0
+						s = ""
+					}else {
+						num := j - p.num
+						rs = rs + strconv.Itoa(num) + p.v
+						rs = rs + "1" + string(s[j])
+						j = 0
+						s = ""
+					}
+					m[i] = rs
+					break
 				}else {
 					num := j - p.num
-					s = s[p.num : j+1]
+					s = s[j:]
 					rs = rs + strconv.Itoa(num) + p.v
 					j = 0
 				}
 				p.v = cs
 				p.num = j
 			}else if len(s) == j+1 {
-				m[i] = strconv.Itoa(j+1) + string(s[0])
 				rs = rs + strconv.Itoa(j+1) + string(s[0])
+				m[i] = rs
 				break
 			}
 		}
 
 	}
 
-	fmt.Println(m)
 	return rs
 }
 
 func main() {
-	v := number(4)
-	fmt.Println("===========")
+	v := countAndSay(30)
 	fmt.Println(v)
 }
