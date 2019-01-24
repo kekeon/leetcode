@@ -10,52 +10,58 @@ func lengthOfLastWord(s string) int {
 		return 0
 	}
 
-	ss := strings.Replace(s, " ",",",-1)
+	ss := strings.Replace(s, " ", ",", -1)
 
-
-	fmt.Println(ss)
-	arr := strings.Split(ss, "")
-	fmt.Println("============")
-	fmt.Println(arr)
-
-	filterArr := []string{}
-	if len(arr) > 0 {
-		for i:=0; i< len(arr); i++ {
-			if string(arr[i]) != "," {
-				filterArr = append(filterArr, arr[i])
-			}
+	m := []int{}
+	for i, v := range ss {
+		if string(v) == "," {
+			m = append(m,i)
 		}
 	}
+	fmt.Println(m)
 
-	fmt.Println(filterArr)
-
-	if len(filterArr) == 0 {
-		return 0
-	}else {
-		arr = strings.Split(s, " ")
-	}
-
-
+	last := ""
 	abc := "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-	last := arr[len(arr) - 1]
-
-	if last == " " {
+	if len(m) == len(s) {
 		return 0
+	}else if len(m) ==1 {
+
+		start := m[0] +1
+
+		if start == len(s) {
+			last = s[0:start]
+		}else {
+			last = s[start:]
+		}
+
+	}else if len(m)==0 && len(s) >0 {
+		last = s
+	}else {
+		for j := len(m) - 1; j>0; j-- {
+			start := m[j-1] + 1
+			if m[j-1] + 1 != m[j] {
+				end := m[j] + 1
+				last = s[start:end]
+			}
+
+			fmt.Println(last)
+
+		}
 	}
 
 	n := strings.Index(abc, string(last[0]))
 
 	if n > 0 {
 		return len(last)
-	}else {
+	} else {
 		return 0
 	}
 
 }
 
 func main() {
-	s := lengthOfLastWord("a ")
+	s := lengthOfLastWord("A H211 Word")
 	fmt.Println("------")
 	fmt.Println(s)
 }
