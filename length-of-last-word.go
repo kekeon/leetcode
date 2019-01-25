@@ -14,18 +14,18 @@ func lengthOfLastWord(s string) int {
 
 	n := 0
 
-	for i:=0; i<len(ss);i++ {
+	for i := 0; i < len(ss); i++ {
 
 		if i >= 1 {
-			if ss[i]!= " " && ss[i-1] == " " {
+			if ss[i] != " " && ss[i-1] == " " {
 
 				n = 1
 
-			}else if ss[i] != " "{
+			} else if ss[i] != " " {
 
 				n++
 			}
-		}else if s[i]!=' ' {
+		} else if s[i] != ' ' {
 			n++
 		}
 
