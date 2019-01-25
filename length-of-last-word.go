@@ -1,67 +1,41 @@
 package main
 
 import (
-	"strings"
 	"fmt"
+	"strings"
 )
 
 func lengthOfLastWord(s string) int {
-	if s == "" {
+	if s == "" || s == " " {
 		return 0
 	}
 
-	ss := strings.Replace(s, " ", ",", -1)
+	ss := strings.Split(s, "")
 
-	m := []int{}
-	for i, v := range ss {
-		if string(v) == "," {
-			m = append(m,i)
-		}
-	}
-	fmt.Println(m)
+	n := 0
 
-	last := ""
-	abc := "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	for i:=0; i<len(ss);i++ {
 
-	if len(m) == len(s) {
-		return 0
-	}else if len(m) ==1 {
+		if i >= 1 {
+			if ss[i]!= " " && ss[i-1] == " " {
 
-		start := m[0] +1
+				n = 1
 
-		if start == len(s) {
-			last = s[0:start]
-		}else {
-			last = s[start:]
-		}
+			}else if ss[i] != " "{
 
-	}else if len(m)==0 && len(s) >0 {
-		last = s
-	}else {
-		for j := len(m) - 1; j>0; j-- {
-			start := m[j-1] + 1
-			if m[j-1] + 1 != m[j] {
-				end := m[j] + 1
-				last = s[start:end]
+				n++
 			}
-
-			fmt.Println(last)
-
+		}else if s[i]!=' ' {
+			n++
 		}
+
 	}
 
-	n := strings.Index(abc, string(last[0]))
-
-	if n > 0 {
-		return len(last)
-	} else {
-		return 0
-	}
+	return n
 
 }
 
 func main() {
-	s := lengthOfLastWord("A H211 Word")
-	fmt.Println("------")
+	s := lengthOfLastWord("  A")
 	fmt.Println(s)
 }
