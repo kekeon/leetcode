@@ -47,7 +47,53 @@ func bracketValid(s string) bool {
 	}
 }
 
+func bracketStack(s string) bool {
+
+	isValid := false
+	if len(s)%2 != 0 {
+		return isValid
+	}
+
+	m := make(map[string]string)
+
+	m["{"] = "}"
+	m["["] = "]"
+	m["("] = ")"
+
+	arr := []string{}
+	for i := 0; i < len(s); i ++ {
+		if string(s[i]) == "(" || string(s[i]) == "[" || string(s[i]) == "{" {
+			arr = append(arr, string(s[i]))
+		} else {
+
+			if len(arr) == 0 {
+				return false
+			}
+
+			top := arr[len(arr)-1]
+
+			if string(s[i]) != m[top] {
+				return false
+			} else {
+
+				n := len(arr)
+				arr = arr[0 : n-1]
+
+			}
+		}
+	}
+
+	if len(arr) > 0 {
+		return false
+	} else {
+		return true
+
+	}
+
+}
+
 func main() {
-	v := bracketValid("[()](()(})")
+	//v := bracketValid("[()](()(})")
+	v := bracketStack("){")
 	fmt.Println(v)
 }
