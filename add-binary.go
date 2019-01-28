@@ -21,7 +21,7 @@ func addBinary(a string, b string) string {
 
 	l := 0
 
-	if al <= bl {
+	if al >= bl {
 		l = al
 	} else {
 		l = bl
@@ -32,113 +32,68 @@ func addBinary(a string, b string) string {
 
 	list := []string{}
 
-	label := false  // 是否有进位
-	for i := l-1; i >=0; i-- {
-		aNumber,_ :=  strconv.Atoi(aList[i])
-		bNumber,_ :=  strconv.Atoi(bList[i])
+	lab := false
 
-		n := aNumber + bNumber
+	for i:=0; i<=l; i++ {
 
-		if n > 1 {
-			if label {
-				list = append(list, "1")
-				label = false
-			}else {
-				list = append(list, "0")
-				label = true
-			}
-		}else {
-			s := strconv.Itoa(n)
-
-			if !label {
-				list = append(list, s)
-			}else {
-				n = n + 1
-
-				if n > 1 {
-					label = true
-					list = append(list, "0")
-				}else {
-					s := strconv.Itoa(n)
-					list = append(list, s)
-				}
-
-			}
-
+		aNumber := 0
+		bNumber := 0
+		if i<len(aList) {
+			aNumber,_ = strconv.Atoi(aList[al - 1 - i])
 		}
-	}
-	ss := ""
-	if al > bl {
-		ss = a[0:bl]
-	} else if bl > al {
-		ss = b[0:al]
-	}
 
-	sl := len(ss)
-	slLast := 0
-	if sl > 0 {
-		slLast,_ = strconv.Atoi(ss[sl-1:sl]);
-	}
+		if i<len(bList) {
+			bNumber,_ = strconv.Atoi(bList[bl - 1 - i])
+		}
 
-
-	if label {
-
-		if sl == 0 {
-			list = append(list, "1")
-		}else if slLast == 0{
-			list = append(list, "1")
-			for _, v := range ss[0:sl] {
-				list = append(list, string(v))
+		if i== l {
+			if lab {
+				list = append(list,"1")
 			}
+			break
+		}
+
+		sum := aNumber + bNumber
+
+		if sum >= 2 {
+
+			if lab {
+				list = append(list,"1")
+			}else {
+				list = append(list,"0")
+				lab = true
+			}
+
 		}else {
 
-			label = false
-			for _, v := range ss {
-				vNumber,_ := strconv.Atoi(string(v))
+			if lab {
+				sum = sum + 1
+			}
 
-				n := vNumber +1
-
-
-				if n > 1 {
-					if label {
-						list = append(list, "1")
-						label = false
-					}else {
-						list = append(list, "0")
-						label = true
-					}
-				}else {
-					s := strconv.Itoa(n)
-
-					if !label {
-						list = append(list, s)
-					}else {
-						n = n + 1
-						if n > 1 {
-							label = true
-							list = append(list, "0")
-						}else {
-							s := strconv.Itoa(n)
-							list = append(list, s)
-						}
-					}
-
-				}
-
+			if sum >= 2 {
+				list = append(list,"0")
+				lab = true
+			}else {
+				s := strconv.Itoa(sum)
+				list = append(list,s)
+				lab = false
 			}
 
 		}
-	}else if sl > 0{
-		for _, v := range ss {
-			list = append(list, string(v))
-		}
+
 	}
 
-	fmt.Println(list)
-	return " "
+	str := ""
+
+	for j:=len(list) -1; j>=0; j-- {
+		str += list[j]
+	}
+
+
+	return str
 }
 
 func main() {
-	fmt.Println(addBinary("11", "1"))
-	fmt.Println(addBinary("1010", "1011"))
+	fmt.Println(addBinary("100", "110010")) // 100
+	fmt.Println(addBinary("1010", "1011")) // 10101
 }
