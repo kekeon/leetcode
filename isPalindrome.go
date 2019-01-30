@@ -11,7 +11,7 @@ func isPalindrome(s string) bool{
 	l := len(s)
 
 	if l == 0 {
-		return false
+		return true
 	}
 
 	ss := strings.ToUpper(s)
@@ -24,33 +24,26 @@ func isPalindrome(s string) bool{
 	}
 	fmt.Println(list)
 
-	ssl := len(list)
+	ssl := float64(len(list))
+	ssl_int := len(list)
 
-	var f float64
-	f = 3/2
-	fmt.Println(f)
-	fmt.Println(3.9)
+
 	fmt.Println("----------------====")
-	num := int(math.Round(float64(ssl / 2)))
+	num := int(math.Round(ssl / 2))
 
 	lab := false
 
-	if ssl % 2 == 0 {
+	if ssl_int % 2 == 0 {
 		lab = true
 	}
 
-	fmt.Println("+++++")
-	fmt.Println(num)
 	for i:= 0; i < num; i++{
 
-		fmt.Println(i)
 		if !lab && i + 1 == num {
-			fmt.Println("---------------")
 			return true
 		}
 
-		if list[i] != list[ssl-i - 1] {
-			fmt.Println("============")
+		if list[i] != list[ssl_int-i - 1] {
 			return false
 		}
 	}
@@ -59,6 +52,6 @@ func isPalindrome(s string) bool{
 }
 
 func main() {
-	v := isPalindrome("abb")
+	v := isPalindrome("")
 	fmt.Println(v)
 }
