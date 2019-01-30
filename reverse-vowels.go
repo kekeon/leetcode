@@ -11,6 +11,9 @@ func boolVowel(s string) bool {
 		return true
 	}
 
+	/*ss := "aeiouAEIOU"
+	b := strings.Contains(ss, s)*/
+
 	return false
  }
 
