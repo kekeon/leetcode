@@ -28,7 +28,6 @@ func isPalindrome(s string) bool{
 	ssl_int := len(list)
 
 
-	fmt.Println("----------------====")
 	num := int(math.Round(ssl / 2))
 
 	lab := false
