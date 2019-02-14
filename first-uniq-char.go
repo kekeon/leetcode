@@ -7,7 +7,7 @@ import (
 
 func firstUniqChar(s string) int {
 
-	for i,v := range s {
+	for i, v := range s {
 
 		str := s[i+1:]
 		sub := string(v)
@@ -27,7 +27,6 @@ func firstUniqChar(s string) int {
 
 	return -1
 }
-
 
 func main() {
 	v := firstUniqChar("aa")
