@@ -13,10 +13,10 @@ func repeatedSubstringPattern(s string) bool {
 
 	l := len(s)
 
-	for i := 1; i <= l/2; i++ {
+	for i:= 1; i<=l / 2; i++ {
 		sub := s[0:i]
 
-		if l%len(sub) == 0 && strings.Repeat(sub, l/len(sub)) == s {
+		if l%len(sub) == 0 && strings.Repeat(sub,l / len(sub)) == s {
 			return true
 		}
 	}
@@ -25,6 +25,6 @@ func repeatedSubstringPattern(s string) bool {
 }
 
 func main() {
-	v := repeatedSubstringPattern("abaabaabac")
+	v := repeatedSubstringPattern("abaabaaba")
 	fmt.Println(v)
 }
