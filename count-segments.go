@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"strings"
 )
-
 func countSegments(s string) int {
 
 	list := []string{}
@@ -19,6 +18,7 @@ func countSegments(s string) int {
 }
 
 func main() {
-	v := countSegments("                ")
+
+	v := countSegments("Hello, my name is John")
 	fmt.Println(v)
 }
