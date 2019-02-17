@@ -18,13 +18,11 @@ func compress(chars []byte) int {
 				for _, num := range strconv.Itoa(num) {
 					chars[l] = byte(num)
 					l++
-					fmt.Println(l)
 				}
 			}
 			num = 1
 		}
 	}
-	fmt.Println(chars)
 
 	return l
 }
