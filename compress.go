@@ -6,12 +6,12 @@ import (
 )
 
 func compress(chars []byte) int {
-	l,num := 0 , 1
+	l, num := 0, 1
 
 	for i, v := range chars {
 		if i+1 < len(chars) && v == chars[i+1] {
 			num ++
-		}else {
+		} else {
 			chars[l] = v
 			l ++
 			if num > 1 {
@@ -31,6 +31,6 @@ func compress(chars []byte) int {
 
 func main() {
 
-	v := compress([]byte{97,99,99,99,99,99,99,99})
+	v := compress([]byte{97, 99, 99, 99, 99, 99, 99, 99})
 	fmt.Println(v)
 }
