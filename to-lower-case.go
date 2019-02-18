@@ -34,12 +34,12 @@ func toLowerCase(str string) string {
 	}
 
 	s := ""
-	for i:=0;i<len(str);i++ {
+	for i := 0; i < len(str); i++ {
 
 		if m[string(str[i])] != "" {
-			s+=m[string(str[i])]
+			s += m[string(str[i])]
 		} else {
-		s+=string(str[i])
+			s += string(str[i])
 		}
 	}
 
