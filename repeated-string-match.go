@@ -9,25 +9,24 @@ func repeatedStringMatch(A string, B string) int {
 
 	n := 1
 
-
 	num := 0
 
 	al := len(A)
 	bl := len(B)
 
-	if al>bl {
+	if al > bl {
 		num = 2
-	}else {
+	} else {
 		num = len(B) / len(A) * 3
 	}
 
 	str := A
 
-	for  {
+	for {
 
-		i := strings.Index(str,B)
+		i := strings.Index(str, B)
 
-		if i !=-1  {
+		if i != -1 {
 			return n
 		}
 
@@ -41,7 +40,7 @@ func repeatedStringMatch(A string, B string) int {
 
 }
 
-func main() {//abcabcabc
-	v := repeatedStringMatch("aaaaaaaaaaaaaaaaaaaaaab","ba")
+func main() { //abcabcabc
+	v := repeatedStringMatch("aaaaaaaaaaaaaaaaaaaaaab", "ba")
 	fmt.Println(v)
 }
