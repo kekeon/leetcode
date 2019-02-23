@@ -8,19 +8,19 @@ import (
 func rotatedDigits(N int) int {
 
 	m := map[string]bool{
-		"0":true,
-		"1":true,
-		"2":true,
-		"5":true,
-		"6":true,
-		"8":true,
-		"9":true,
+		"0": true,
+		"1": true,
+		"2": true,
+		"5": true,
+		"6": true,
+		"8": true,
+		"9": true,
 	}
 
 	c := map[string]bool{
-		"0":true,
-		"1":true,
-		"8":true,
+		"0": true,
+		"1": true,
+		"8": true,
 	}
 
 	count := 0
@@ -44,8 +44,7 @@ func rotatedDigits(N int) int {
 
 			isC = true
 
-			for _,v := range k {
-
+			for _, v := range k {
 
 				if !m[string(v)] {
 					isM = false
@@ -58,7 +57,7 @@ func rotatedDigits(N int) int {
 
 			}
 
-			if isM && !isC{
+			if isM && !isC {
 				count++
 			}
 

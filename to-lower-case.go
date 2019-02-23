@@ -8,7 +8,7 @@ func toLowerCase(str string) string {
 		"A": "a",
 		"B": "b",
 		"C": "c",
-		"D": "D",
+		"D": "d",
 		"E": "e",
 		"F": "f",
 		"G": "g",
