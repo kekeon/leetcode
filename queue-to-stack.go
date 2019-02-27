@@ -8,7 +8,7 @@ type MyStack struct {
 
 
 /** Initialize your data structure here. */
-func Constructor() MyStack {
+func constructor() MyStack {
 
 	return MyStack {
 		stack: []interface{}{},
@@ -64,7 +64,7 @@ func (this *MyStack) Empty() bool {
  */
 
 func main() {
-	 obj := Constructor()
+	 obj := constructor()
 	 obj.Push(9)
 	 param_2 := obj.Pop()
 	 param_3 := obj.Top()
