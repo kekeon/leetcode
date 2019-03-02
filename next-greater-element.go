@@ -29,9 +29,9 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 
 }
 
-func fincIndex(s []int, num int) int{
+func fincIndex(s []int, num int) int {
 
-	for i,v := range s {
+	for i, v := range s {
 
 		if v == num {
 			return i
