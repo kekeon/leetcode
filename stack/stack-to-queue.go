@@ -8,7 +8,7 @@ type Queue struct {
 
 
 /** Initialize your data structure here. */
-func Constructor() Queue {
+func ConstructorQueue() Queue {
 
 	return Queue{
 		queue:[]interface{}{},
@@ -68,8 +68,8 @@ func (this *Queue) Empty() bool {
  * param_4 := obj.Empty();
  */
 
-func main() {
-	obj := Constructor()
+func testQueue() {
+	obj := ConstructorQueue()
 	obj.Push("12")
 	param_2 := obj.Pop()
 	param_3 := obj.Peek()

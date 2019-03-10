@@ -122,6 +122,7 @@ func TestIsSameTree(t *testing.T){
 
 // 中序遍历测试
 func TestInorderTraversal(t *testing.T) {
+
 	gNode := TreeNode{
 		Val: "g",
 		Left:	nil,
@@ -152,10 +153,6 @@ func TestInorderTraversal(t *testing.T) {
 		Right: &gNode,
 	}
 
-
-
-
-
 	aNode := TreeNode{
 		Val: "a",
 		Left:	nil,
@@ -171,5 +168,58 @@ func TestInorderTraversal(t *testing.T) {
 	v := InorderTraversal(&bNode)
 
 	fmt.Println(v)
+}
+
+// 层次遍历测试
+func TestLevelTraversal(t *testing.T) {
+	gNode := TreeNode{
+		Val: "g",
+		Left:	nil,
+		Right: nil,
+	}
+
+	eNode := TreeNode{
+		Val: "e",
+		Left:	nil,
+		Right: &gNode,
+	}
+
+	cNode := TreeNode{
+		Val: "c",
+		Left:	nil,
+		Right: nil,
+	}
+
+
+	fNode := TreeNode{
+		Val: "f",
+		Left:	nil,
+		Right: nil,
+	}
+
+
+	dNode := TreeNode{
+		Val: "d",
+		Left:	&eNode,
+		Right: &fNode,
+	}
+
+	bNode := TreeNode{
+		Val: "b",
+		Left:	&cNode,
+		Right: &dNode,
+	}
+
+	aNode := TreeNode{
+		Val: "a",
+		Left:	&bNode,
+		Right: nil,
+	}
+
+
+	v := LevelTraversal(&aNode)
+
+	fmt.Println(v)
+
 
 }
