@@ -8,6 +8,7 @@ import (
 
 
 // go test -v .\tree -test.run TestPreorderTraversal
+// 先序遍历测试
 func TestPreorderTraversal(t *testing.T){
 
 	gNode := TreeNode{
@@ -117,4 +118,58 @@ func TestIsSameTree(t *testing.T){
 	v := isSameTree(&aNode, &aNode)
 
 	fmt.Println(v)
+}
+
+// 中序遍历测试
+func TestInorderTraversal(t *testing.T) {
+	gNode := TreeNode{
+		Val: "g",
+		Left:	nil,
+		Right: nil,
+	}
+
+	eNode := TreeNode{
+		Val: "e",
+		Left:	nil,
+		Right: nil,
+	}
+
+	cNode := TreeNode{
+		Val: "c",
+		Left:	nil,
+		Right: nil,
+	}
+
+	dNode := TreeNode{
+		Val: "d",
+		Left:	&cNode,
+		Right: &eNode,
+	}
+
+	fNode := TreeNode{
+		Val: "f",
+		Left:	&dNode,
+		Right: &gNode,
+	}
+
+
+
+
+
+	aNode := TreeNode{
+		Val: "a",
+		Left:	nil,
+		Right: nil,
+	}
+
+	bNode := TreeNode{
+		Val: "b",
+		Left:	&aNode,
+		Right: &fNode,
+	}
+
+	v := InorderTraversal(&bNode)
+
+	fmt.Println(v)
+
 }
