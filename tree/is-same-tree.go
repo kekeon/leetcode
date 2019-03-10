@@ -1,13 +1,9 @@
 package tree
 
-import "fmt"
-
+// 1. tree to array
 func isSameTree(p *TreeNode, q *TreeNode) bool {
 	pList := travPre(p).([]interface{})
 	qList := travPre(q).([]interface{})
-
-	fmt.Println(pList)
-	fmt.Println(qList)
 
 	pl := len(pList)
 	ql := len(qList)
@@ -23,4 +19,18 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 	    }
 
 	    return true
+}
+
+// 2. recursion tree
+func isSameTree2(p *TreeNode, q *TreeNode) bool{
+
+	if p == nil && q == nil {
+		return true
+	}
+
+	if p != nil && q != nil && p.Val == q.Val {
+		return isSameTree2(p.Left, q.Left) && isSameTree2(p.Right, q.Right)
+	}
+
+	return false
 }
