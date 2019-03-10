@@ -5,6 +5,8 @@ import (
 	"fmt"
 )
 
+
+// 先序遍历的实现
 type TreeNode struct {
 	Val   interface{}
 	Left  *TreeNode
@@ -19,18 +21,24 @@ func visit(v interface{}) {
 
 func visitAlongLeftBranch(x *TreeNode, s *stack.Stack) {
 
-	for x != nil {
+	for {
 		// 树节点的val
-		visit(x.Val)
-		s.Push(x.Right)
-		x = x.Left
+
+		if(x != nil ) {
+			visit(x.Val)
+			s.Push(x.Right)
+			x = x.Left
+		}else {
+			visit(nil)
+			break
+		}
 	}
 
 }
 
 func travPre(x *TreeNode) interface{} {
 	stackNode := stack.ConstructorStack()
-
+	arr = []interface{}{}
 	for true {
 		visitAlongLeftBranch(x, &stackNode)
 
