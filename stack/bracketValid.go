@@ -92,7 +92,7 @@ func bracketStack(s string) bool {
 
 }
 
-func main() {
+func testBracketValid() {
 	//v := bracketValid("[()](()(})")
 	v := bracketStack("){")
 	fmt.Println(v)

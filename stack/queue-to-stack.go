@@ -2,28 +2,28 @@ package stack
 
 import "fmt"
 
-type MyStack struct {
+type Stack struct {
 	stack []interface{}
 }
 
 
 /** Initialize your data structure here. */
-func constructor() MyStack {
+func ConstructorStack() Stack {
 
-	return MyStack {
+	return Stack {
 		stack: []interface{}{},
 	}
 }
 
 
 /** Push element x onto stack. */
-func (this *MyStack) Push(x int)  {
+func (this *Stack) Push(x interface{})  {
 	this.stack = append(this.stack, x)
 }
 
 
 /** Removes the element on top of the stack and returns that element. */
-func (this *MyStack) Pop() interface{} {
+func (this *Stack) Pop() interface{} {
 	size := len(this.stack)
 	res := this.stack[size-1]
 	this.stack = append([]interface{}{}, this.stack[0:size-1]...)
@@ -32,7 +32,7 @@ func (this *MyStack) Pop() interface{} {
 
 
 /** Get the top element. */
-func (this *MyStack) Top() interface{} {
+func (this *Stack) Top() interface{} {
 	size := len(this.stack)
 
 	if size == 0 {
@@ -44,7 +44,7 @@ func (this *MyStack) Top() interface{} {
 
 
 /** Returns whether the stack is empty. */
-func (this *MyStack) Empty() bool {
+func (this *Stack) Empty() bool {
 
 	if len(this.stack) == 0 {
 		return true
@@ -55,7 +55,7 @@ func (this *MyStack) Empty() bool {
 
 
 /**
- * Your MyStack object will be instantiated and called as such:
+ * Your Stack object will be instantiated and called as such:
  * obj := Constructor();
  * obj.Push(x);
  * param_2 := obj.Pop();
@@ -63,8 +63,8 @@ func (this *MyStack) Empty() bool {
  * param_4 := obj.Empty();
  */
 
-func main() {
-	 obj := constructor()
+func testStack() {
+	 obj := ConstructorStack()
 	 obj.Push(9)
 	 param_2 := obj.Pop()
 	 param_3 := obj.Top()

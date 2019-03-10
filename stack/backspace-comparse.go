@@ -41,7 +41,7 @@ func backspaceCompare(S string, T string) bool {
 	}
 }
 
-func main() {
+func testBackspaceCompare() {
 
 	v := backspaceCompare("a#c", "c")
 

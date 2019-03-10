@@ -2,28 +2,28 @@ package stack
 
 import "fmt"
 
-type MyQueue struct {
+type Queue struct {
 	queue []interface{}
 }
 
 
 /** Initialize your data structure here. */
-func Constructor() MyQueue {
+func Constructor() Queue {
 
-	return MyQueue{
+	return Queue{
 		queue:[]interface{}{},
 	}
 }
 
 
 /** Push element x to the back of queue. */
-func (this *MyQueue) Push(x interface{})  {
+func (this *Queue) Push(x interface{})  {
 	this.queue = append(this.queue,x)
 }
 
 
 /** Removes the element from in front of queue and returns that element. */
-func (this *MyQueue) Pop() interface{} {
+func (this *Queue) Pop() interface{} {
 
 	size := len(this.queue)
 
@@ -38,7 +38,7 @@ func (this *MyQueue) Pop() interface{} {
 
 
 /** Get the front element. */
-func (this *MyQueue) Peek() interface{} {
+func (this *Queue) Peek() interface{} {
 	size := len(this.queue)
 	if size == 0 {
 		return  nil
@@ -49,7 +49,7 @@ func (this *MyQueue) Peek() interface{} {
 
 
 /** Returns whether the queue is empty. */
-func (this *MyQueue) Empty() bool {
+func (this *Queue) Empty() bool {
 
 	if len(this.queue) == 0 {
 		return  true
@@ -60,7 +60,7 @@ func (this *MyQueue) Empty() bool {
 
 
 /**
- * Your MyQueue object will be instantiated and called as such:
+ * Your Queue object will be instantiated and called as such:
  * obj := Constructor();
  * obj.Push(x);
  * param_2 := obj.Pop();

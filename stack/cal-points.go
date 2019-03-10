@@ -40,7 +40,7 @@ func calPoints(ops []string) int {
 	return sum
 }
 
-func main() {
+func testCalPoints() {
 	num := []string{"5", "-2", "4", "C", "D", "9", "+", "+"}
 	v := calPoints(num)
 
