@@ -64,6 +64,7 @@ func TestPreorderTraversal(t *testing.T){
 	fmt.Println(q)
 }
 
+// 两二叉树是否相同
 func TestIsSameTree(t *testing.T){
 
 
