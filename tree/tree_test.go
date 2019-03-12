@@ -224,28 +224,16 @@ func TestLevelTraversal(t *testing.T) {
 
 }
 
+//go test -v .\tree -test.run TestLevelOrderBottom
 func TestLevelOrderBottom(t *testing.T){
 
-	gNode := TreeNode1{
-		Val: "g",
-		Left:	nil,
-		Right: nil,
-	}
 
 	eNode := TreeNode1{
-		Val: "e",
-		Left:	nil,
-		Right: &gNode,
-	}
-
-
-
-
-	fNode := TreeNode1{
-		Val: "f",
+		Val: 7,
 		Left:	nil,
 		Right: nil,
 	}
+
 
 
 	dNode := TreeNode1{
@@ -272,6 +260,6 @@ func TestLevelOrderBottom(t *testing.T){
 		Right: &cNode,
 	}
 
-	v:= levelOrderBottom(aNode)
+	v:= levelOrderBottom(&aNode)
 	fmt.Println(v)
 }
