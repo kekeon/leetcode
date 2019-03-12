@@ -6,7 +6,6 @@ import (
 
 // 层次遍历
 func LevelTraversal(x *TreeNode) []interface{}{
-
 	q := stack.ConstructorQueue()
 	arr := []interface{}{}
 
