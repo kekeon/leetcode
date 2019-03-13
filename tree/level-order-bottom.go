@@ -25,6 +25,7 @@ func levelOrderBottom(root *TreeNode1) [][]int {
 	if root == nil {
 		return q
 	}
+
 	arr = append(arr, root)
 	q = append(q, visitVal(arr))
 
