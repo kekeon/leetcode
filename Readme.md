@@ -4,7 +4,7 @@
 #### topic code
 
 | Number | Title | Tags |Difficulty |
-|---:|:---:|---:|---:|
+|---:|:---|---:|---:|
 | [993](https://github.com/kekeon/leetcode/blob/master/queue/recent-counter.go)  | Number of Recent Calls   | Queue  | Easy |
 | [100](https://github.com/kekeon/leetcode/blob/master/tree/preorder-traversal.go)  | Same Tree   | tree  | Easy |
 | [101](https://github.com/kekeon/leetcode/blob/master/tree/is-symmetric.go)  | Symmetric Tree   | tree  | Easy |
