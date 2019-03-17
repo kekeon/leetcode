@@ -12,3 +12,5 @@
 | [105](https://github.com/kekeon/leetcode/blob/master/tree/level-order-bottom.go)  |Construct Binary Tree from Preorder and Inorder Traversal      | tree  | Easy |
 | [108](https://github.com/kekeon/leetcode/blob/master/tree/sorted-array-to-bst.go)  |Convert Sorted Array to Binary Search Tree      | tree  | Easy |
 | [110](https://github.com/kekeon/leetcode/blob/master/tree/is-balanced.go)  |110. Balanced Binary Tree      | tree  | Easy |
+| [111](https://github.com/kekeon/leetcode/blob/master/tree/min-depth.go)  |110. Balanced Binary Tree      | tree  | Easy |
+| [112](https://github.com/kekeon/leetcode/blob/master/tree/has-path-sym.go)  |110. Balanced Binary Tree      | tree  | Easy |
