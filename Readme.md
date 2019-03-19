@@ -11,6 +11,11 @@
 | [104](https://github.com/kekeon/leetcode/blob/master/tree/max-depth.go)  |  Maximum Depth of Binary Tree    | tree  | Easy |
 | [105](https://github.com/kekeon/leetcode/blob/master/tree/level-order-bottom.go)  |Construct Binary Tree from Preorder and Inorder Traversal      | tree  | Easy |
 | [108](https://github.com/kekeon/leetcode/blob/master/tree/sorted-array-to-bst.go)  |Convert Sorted Array to Binary Search Tree      | tree  | Easy |
-| [110](https://github.com/kekeon/leetcode/blob/master/tree/is-balanced.go)  |110. Balanced Binary Tree      | tree  | Easy |
-| [111](https://github.com/kekeon/leetcode/blob/master/tree/min-depth.go)  |110. Balanced Binary Tree      | tree  | Easy |
-| [112](https://github.com/kekeon/leetcode/blob/master/tree/has-path-sym.go)  |110. Balanced Binary Tree      | tree  | Easy |
+| [110](https://github.com/kekeon/leetcode/blob/master/tree/is-balanced.go)  |Balanced Binary Tree      | tree  | Easy |
+| [111](https://github.com/kekeon/leetcode/blob/master/tree/min-depth.go)  |Minimum Depth of Binary Tree    | tree  | Easy |
+| [112](https://github.com/kekeon/leetcode/blob/master/tree/has-path-sum.go)  |Path Sum      | tree  | Easy |
+| [226](https://github.com/kekeon/leetcode/blob/master/tree/inver-tree.go)  |Invert Binary Tree | tree  | Easy |
+| [235](https://github.com/kekeon/leetcode/blob/master/tree/lowest-common-ancestor.go)  |Lowest Common Ancestor of a Binary Search Tree| tree  | Easy |
+| [257](https://github.com/kekeon/leetcode/blob/master/tree/binary-tree-paths.go)  | Binary Tree Paths| tree  | Easy |
+
+
