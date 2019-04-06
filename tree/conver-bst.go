@@ -1,16 +1,23 @@
 package tree
 
 func convertBST(root *TreeNode1) *TreeNode1 {
-	convert(root)
+	convert(root, 0)
 	return root
 }
 
-var add int
-func convert(root *TreeNode1){
-	if root != nil {
-		convert(root.Right)
-		root.Val += add
-		add = root.Val
-		convert(root.Left)
+func convert(root *TreeNode1, sum int) int{
+
+	if root == nil {
+		return sum
 	}
+
+	s := convert(root.Right, sum)
+
+	root.Val += s
+
+	s = root.Val
+
+	s = convert(root.Left , s)
+
+	return s
 }
