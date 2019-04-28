@@ -4,23 +4,25 @@ import (
 	"strconv"
 )
 
-func tree2str(n *TreeNode1) string {
+func tree2str(t *TreeNode1) string {
 
-	if n == nil {
+	if t == nil {
 		return ""
 	}
 
-	if n.Left == nil && n.Right == nil {
-		return strconv.Itoa(n.Val)
+	if t.Left == nil && t.Right == nil {
+
+		return strconv.Itoa(t.Val)
 	}
 
-	if n.Left != nil && n.Right == nil {
-		return  strconv.Itoa(n.Val) + "(" + tree2str(n.Left) +")"
-	}else if n.Left == nil && n.Right != nil {
+	if t.Left != nil && t.Right == nil {
 
-		return strconv.Itoa(n.Val) + "()"+ "(" + tree2str(n.Right) +")"
+		return strconv.Itoa(t.Val) + "(" + tree2str(t.Left) + ")"
+	} else if t.Left == nil && t.Right != nil {
+
+		return strconv.Itoa(t.Val) + "()" + "(" + tree2str(t.Right) + ")"
 	}
 
-	return strconv.Itoa(n.Val) + "(" + tree2str(n.Left) +")" + "(" + tree2str(n.Right) +")"
+	return strconv.Itoa(t.Val) + "(" + tree2str(t.Left) + ")" + "(" + tree2str(t.Right) + ")"
 
 }
