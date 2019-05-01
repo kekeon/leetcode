@@ -18,6 +18,12 @@
 | [235](https://github.com/kekeon/leetcode/blob/master/tree/lowest-common-ancestor.go)  |Lowest Common Ancestor of a Binary Search Tree| tree  | Easy |
 | [257](https://github.com/kekeon/leetcode/blob/master/tree/binary-tree-paths.go)  | Binary Tree Paths| tree  | Easy |
 | [404](https://github.com/kekeon/leetcode/blob/master/tree/sum-of-left-level.go)  | Sum of Left Leaves| tree  | Easy |
-| [437](https://github.com/kekeon/leetcode/blob/master/tree/path-sum.go)  | Sum of Left Leaves| tree  | Easy |
-
+| [437](https://github.com/kekeon/leetcode/blob/master/tree/path-sum.go)  | Path Sum III| tree  | Easy |
+| [501](https://github.com/kekeon/leetcode/blob/master/tree/find-mode.go)  | Find Mode in Binary Search Tree| tree  | Easy |
+| [538](https://github.com/kekeon/leetcode/blob/master/tree/convert-bst.go)  | Convert BST to Greater Tree| tree  | Easy |
+| [543](https://github.com/kekeon/leetcode/blob/master/tree/diameter-of-binary-tree.go)  | Diameter of Binary Tree| tree  | Easy |
+| [563](https://github.com/kekeon/leetcode/blob/master/tree/binary-tree-paths.go)  | Binary Tree Tilt| tree  | Easy |
+| [572](https://github.com/kekeon/leetcode/blob/master/tree/is-subtree.go)  |  Subtree of Another Tree| tree  | Easy |
+| [606](https://github.com/kekeon/leetcode/blob/master/tree/tree-2-str.go)  |  Construct String from Binary Tree| tree  | Easy |
+| [617](https://github.com/kekeon/leetcode/blob/master/tree/merge-trees.go)  |  Merge Two Binary Trees| tree  | Easy |
 
