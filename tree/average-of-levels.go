@@ -1,7 +1,5 @@
 package tree
 
-import "fmt"
-
 func averageOfLevels(root *TreeNode1) []float64 {
 
 	res := []float64{}
@@ -43,8 +41,5 @@ func averageVal(p []*TreeNode1) float64{
 	for _, e := range p {
 		sum += e.Val
 	}
-
-	fmt.Println(sum)
-	fmt.Println(len(p))
 	return float64(sum)/float64(len(p))
 }
