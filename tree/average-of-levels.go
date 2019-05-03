@@ -1,16 +1,50 @@
 package tree
 
-func averageOfLevels(root *TreeNode) []float64 {
+import "fmt"
 
+func averageOfLevels(root *TreeNode1) []float64 {
+
+	res := []float64{}
+
+	arr := []*TreeNode1{}
+
+	if root == nil {
+		return res
+	}
+	res = append(res, float64(root.Val))
+	arr = append(arr, root)
+
+	for len(arr) != 0 {
+
+		a := []*TreeNode1{}
+
+		for _, v := range arr{
+			if v.Left != nil {
+				a = append(a, v.Left)
+			}
+
+			if v.Right != nil {
+				a = append(a, v.Right)
+			}
+		}
+
+		if len(a) != 0 {
+			e := averageVal(a)
+			res  = append(res, e)
+		}
+		arr = a
+
+	}
+	return res
 }
 
-func average(l, r *TreeNode1) float64 {
-
-	if l != nil && r != nil {
-		return (average(l.Right, l.Left) + average(r.Right, r.Left)) / 2
-	}else if l != nil && r == nil {
-		return average(l.Right, l.Left)
-	}else if l == nil && r != nil {
-		return average(r.Right, r.Left)
+func averageVal(p []*TreeNode1) float64{
+	sum := 0
+	for _, e := range p {
+		sum += e.Val
 	}
+
+	fmt.Println(sum)
+	fmt.Println(len(p))
+	return float64(sum)/float64(len(p))
 }

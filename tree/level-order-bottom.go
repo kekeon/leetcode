@@ -7,7 +7,6 @@ type TreeNode1 struct {
 }
 
 func visitVal(p []interface{}) []int{
-
 	arr := []int{}
 	for _, val := range p {
 
@@ -16,6 +15,7 @@ func visitVal(p []interface{}) []int{
 		}
 	}
 	return arr
+
 }
 
 func levelOrderBottom(root *TreeNode1) [][]int {
