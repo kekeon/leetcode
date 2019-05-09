@@ -6,18 +6,18 @@ import "fmt"
 func increasingBST(root *TreeNode1) *TreeNode1 {
 	a := inOrder(root)
 	t := TreeNode1{
-		Val:a[0],
-		Left:nil,
-		Right:nil,
+		Val:   a[0],
+		Left:  nil,
+		Right: nil,
 	}
 	p := &t
 
 	c := a[1:]
 	for _, v := range c {
 		b := TreeNode1{
-			Val:v,
-			Left:nil,
-			Right:nil,
+			Val:   v,
+			Left:  nil,
+			Right: nil,
 		}
 		p.Right = &b
 		p = &b
@@ -39,21 +39,20 @@ func inOrder(node *TreeNode1) []int {
 
 	list := []*TreeNode1{}
 	valList := []int{}
-	for  {
+	for {
 		list = append(list, getBranch(node)...)
 		l := len(list)
 		if l == 0 {
 			break
 		}
-		node  = list[l-1]
-		list = list[0:l-1]
+		node = list[l-1]
+		list = list[0 : l-1]
 		valList = append(valList, node.Val)
 		node = node.Right
 	}
 
 	return valList
 }
-
 
 // 2. 中序遍历， 将树重新拼接
 
@@ -92,14 +91,14 @@ func inOrderTree(node *TreeNode1) []*TreeNode1 {
 
 	list := []*TreeNode1{}
 	valList := []*TreeNode1{}
-	for  {
+	for {
 		list = append(list, getBranchNode(node)...)
 		l := len(list)
 		if l == 0 {
 			break
 		}
 		node = list[l-1]
-		list = list[0:l-1]
+		list = list[0 : l-1]
 		valList = append(valList, node)
 		node = node.Right
 	}
