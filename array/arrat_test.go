@@ -11,3 +11,10 @@ func TestMaxSubArray(t *testing.T){
 	v := maxSubArray(nums)
 	fmt.Println(v)
 }
+
+
+// go test -v .\array -test.run TestGenerate
+func TestGenerate(t *testing.T){
+	v := generate(5)
+	fmt.Println(v)
+}
