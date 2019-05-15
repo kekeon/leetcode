@@ -18,3 +18,8 @@ func TestGenerate(t *testing.T){
 	v := generate(5)
 	fmt.Println(v)
 }
+
+func TestGetRow(t *testing.T) {
+	v := getRow(3)
+	fmt.Println(v)
+}
