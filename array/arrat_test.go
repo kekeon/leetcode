@@ -29,3 +29,12 @@ func TestMaxProfit(t *testing.T){
 
 	fmt.Println(v)
 }
+
+
+// [1,2,3,4,4,9,56,90]
+
+func TestTwoSum(t *testing.T){
+	v := twoSum([]int{2,7,11,15}, 18)
+
+	fmt.Println(v)
+}
