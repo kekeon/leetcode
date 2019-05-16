@@ -23,3 +23,9 @@ func TestGetRow(t *testing.T) {
 	v := getRow(3)
 	fmt.Println(v)
 }
+
+func TestMaxProfit(t *testing.T){
+	v := maxProfit([]int{7,1,5,3,6,4})
+
+	fmt.Println(v)
+}
