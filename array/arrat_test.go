@@ -46,3 +46,8 @@ func TestRotate(t *testing.T){
 	rotate(v, 3)
 	fmt.Println(v)
 }
+
+func TestContainsNearbyDuplicate(t *testing.T){
+	v:= containsNearbyDuplicate([]int{1,2,3,1,2,3}, 2)
+	fmt.Println(v)
+}
