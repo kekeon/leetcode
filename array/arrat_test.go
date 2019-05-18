@@ -38,3 +38,11 @@ func TestTwoSum(t *testing.T){
 
 	fmt.Println(v)
 }
+
+// [1,2,3,4,4,9,56,90]
+
+func TestRotate(t *testing.T){
+	v:= []int{1,2,3,4,5,6,7}
+	rotate(v, 3)
+	fmt.Println(v)
+}
