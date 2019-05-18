@@ -51,3 +51,8 @@ func TestContainsNearbyDuplicate(t *testing.T){
 	v:= containsNearbyDuplicate([]int{1,2,3,1,2,3}, 2)
 	fmt.Println(v)
 }
+
+func TestFindDisappearedNumbers(t *testing.T){
+	v:= findDisappearedNumbers([]int{4,3,2,7,8,2,3,1})
+	fmt.Println(v)
+}
