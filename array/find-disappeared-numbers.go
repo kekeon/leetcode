@@ -2,7 +2,6 @@ package array
 
 func findDisappearedNumbers(nums []int) []int {
 
-
 	l := len(nums)
 
 	if l == 0 {
