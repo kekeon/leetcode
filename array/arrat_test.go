@@ -62,3 +62,8 @@ func TestFindMaxConsecutiveOnes(t *testing.T){
 
 	fmt.Println(v)
 }
+
+func TestFib(t *testing.T){
+	v := fib(4)
+	fmt.Println(v)
+}
