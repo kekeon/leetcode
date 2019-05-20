@@ -67,3 +67,9 @@ func TestFib(t *testing.T){
 	v := fib(4)
 	fmt.Println(v)
 }
+
+func TestFindPairs(t *testing.T){
+	// v := findPairs([]int{3, 1, 4, 1, 5}, 2)
+	v := findPairs([]int{1,1,2}, 1)
+	fmt.Println(v)
+}
