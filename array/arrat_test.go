@@ -71,3 +71,10 @@ func TestFindPairs(t *testing.T) {
 	v := findPairs([]int{0, 0, 1, 0, 0}, 1)
 	fmt.Println(v)
 }
+
+
+func TestArrayPairSum(t *testing.T) {
+	// v := findPairs([]int{1,4,3,2})
+	v := arrayPairSum([]int{-1,4,3,-2})
+	fmt.Println(v)
+}
