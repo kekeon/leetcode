@@ -5,15 +5,15 @@ func twoSum(numbers []int, target int) []int {
 	l := len(numbers)
 	lIdex := l - 1
 	v := 0
-	for  {
+	for {
 		v = numbers[mIdx] + numbers[lIdex]
 		if v == target {
 			break
-		}else if v < target {
+		} else if v < target {
 			mIdx ++
-		}else {
+		} else {
 			lIdex --
 		}
 	}
-	return []int{mIdx+1, lIdex+1}
+	return []int{mIdx + 1, lIdex + 1}
 }

@@ -11,7 +11,7 @@ func maxProfit(prices []int) int {
 	for _, v := range prices {
 		if v < min {
 			min = v
-		}else if v - min > max {
+		} else if v-min > max {
 			max = v - min
 		}
 	}

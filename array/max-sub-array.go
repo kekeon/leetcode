@@ -7,13 +7,13 @@ func maxSubArray(nums []int) int {
 		return nums[0]
 	}
 
-	sum  := 0
+	sum := 0
 	maxSum := nums[0]
 
-	for i:=0; i<l; i++ {
+	for i := 0; i < l; i++ {
 		if sum > 0 {
 			sum += nums[i]
-		}else {
+		} else {
 			sum = nums[i]
 		}
 		if maxSum < sum {

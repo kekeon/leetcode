@@ -1,6 +1,6 @@
 package array
 
-func rotate(nums []int, k int)  {
+func rotate(nums []int, k int) {
 
 	l := len(nums)
 
@@ -9,15 +9,15 @@ func rotate(nums []int, k int)  {
 	}
 
 	if k > l {
-		k = k%l
+		k = k % l
 	}
 
 	fL := l - k
 
 	s := append([]int{}, nums[fL:]...)
 
-	for i:= 0; i < fL; i++ {
-		nums[l- i - 1] = nums[fL - i - 1]
+	for i := 0; i < fL; i++ {
+		nums[l-i-1] = nums[fL-i-1]
 	}
 
 	for j := 0; j < k; j ++ {
