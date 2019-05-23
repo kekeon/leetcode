@@ -78,3 +78,8 @@ func TestArrayPairSum(t *testing.T) {
 	v := arrayPairSum([]int{-1,4,3,-2})
 	fmt.Println(v)
 }
+
+func TestFindUnsortedSubarray(t *testing.T){
+	v := findUnsortedSubarray([]int{1,3,2,2,2})
+	fmt.Println(v)
+}
