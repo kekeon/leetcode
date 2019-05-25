@@ -2,12 +2,10 @@ package array
 
 import (
 	"sort"
-	"fmt"
 )
 
 func maximumProduct(nums []int) int {
 	sort.Ints(nums)
-	fmt.Println(nums)
 	l := len(nums)
 
 	if nums[0] > 0 || nums[l-1] <= 0 {

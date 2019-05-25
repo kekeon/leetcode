@@ -89,3 +89,8 @@ func TestMaximumProduct(t *testing.T){
 	fmt.Println(v)
 	// 943695360
 }
+
+func TestFindMaxAverage(t *testing.T){
+	v := findMaxAverage([]int{1,12,-5,-6,50,3}, 4)
+	fmt.Println(v)
+}
