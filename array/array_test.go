@@ -94,3 +94,8 @@ func TestFindMaxAverage(t *testing.T){
 	v := findMaxAverage([]int{1,12,-5,-6,50,3}, 4)
 	fmt.Println(v)
 }
+
+func TestFindShortestSubArray(t *testing.T){
+	v := findShortestSubArray([]int{1, 2})
+	fmt.Println(v)
+}
