@@ -106,5 +106,6 @@ func TestA(t *testing.T) {
 
 func TestTindLengthOfLCIS(t *testing.T) {
 	v := findLengthOfLCIS([]int{1, 3, 5, 4, 2, 3, 4})
+
 	fmt.Println(v)
 }
