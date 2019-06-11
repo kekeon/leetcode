@@ -1,9 +1,6 @@
 package array
 
-import "fmt"
-
 func commonChars(A []string) []string {
-	res := []string{}
 
 	resM := map[string]int{}
 
@@ -11,17 +8,31 @@ func commonChars(A []string) []string {
 		resM[string(v)] ++
 	}
 
-	fmt.Println(resM)
-
 
 	for _, s := range A {
 		m := map[string]int{}
-		for _, v := range s {
+		for _, k := range s {
+			m[string(k)]++
+		}
 
-			m[string(v)]++
-
+		for r, v := range resM {
+			if v > 0 && m[string(r)] > 0 {
+				if v > m[string(r)] {
+					resM[string(r)] = m[string(r)]
+				}
+			}else {
+				resM[string(r)] = 0
+			}
 		}
 	}
+
+	res := []string{}
+	for resk, resv := range resM {
+		for i := 0; i < resv; i++ {
+			res = append(res,resk)
+		}
+	}
+
 
 	return res
 }

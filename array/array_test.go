@@ -109,3 +109,9 @@ func TestTindLengthOfLCIS(t *testing.T) {
 
 	fmt.Println(v)
 }
+
+func TestCommonChars(t *testing.T)  {
+	v := commonChars([]string{"acabcddd","bcbdbcbd","baddbadb","cbdddcac","aacbcccd","ccccddda","cababaab","addcaccd"})
+
+	fmt.Println(v)
+}
