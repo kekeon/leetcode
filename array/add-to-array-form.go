@@ -13,9 +13,15 @@ func addToArrayForm(A []int, K int) []int {
 			current += A[i]
 		}
 
-		c := append([]int{}, current%10)
-		arr = append(c, arr...)
+		arr = append(arr, current%10)
 		current /= 10
+	}
+
+	l = len(arr)
+	current = l / 2
+
+	for j:=0;j<current;j++ {
+		arr[l-j-1],arr[j] = arr[j], arr[l-j-1]
 	}
 
 	return arr
