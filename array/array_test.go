@@ -115,3 +115,8 @@ func TestCommonChars(t *testing.T)  {
 
 	fmt.Println(v)
 }
+
+func TestAddToArrayForm(t *testing.T) {
+	v := addToArrayForm([]int{2,1,5}, 806)
+	fmt.Println(v)
+}
