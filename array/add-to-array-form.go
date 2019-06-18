@@ -20,8 +20,8 @@ func addToArrayForm(A []int, K int) []int {
 	l = len(arr)
 	current = l / 2
 
-	for j:=0;j<current;j++ {
-		arr[l-j-1],arr[j] = arr[j], arr[l-j-1]
+	for j := 0; j < current; j++ {
+		arr[l-j-1], arr[j] = arr[j], arr[l-j-1]
 	}
 
 	return arr

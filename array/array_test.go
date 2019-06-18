@@ -110,13 +110,13 @@ func TestTindLengthOfLCIS(t *testing.T) {
 	fmt.Println(v)
 }
 
-func TestCommonChars(t *testing.T)  {
-	v := commonChars([]string{"acabcddd","bcbdbcbd","baddbadb","cbdddcac","aacbcccd","ccccddda","cababaab","addcaccd"})
+func TestCommonChars(t *testing.T) {
+	v := commonChars([]string{"acabcddd", "bcbdbcbd", "baddbadb", "cbdddcac", "aacbcccd", "ccccddda", "cababaab", "addcaccd"})
 
 	fmt.Println(v)
 }
 
 func TestAddToArrayForm(t *testing.T) {
-	v := addToArrayForm([]int{2,1,5}, 806)
+	v := addToArrayForm([]int{2, 1, 5}, 806)
 	fmt.Println(v)
 }

@@ -9,7 +9,7 @@ func arrayPairSum(nums []int) int {
 	sum := 0
 
 	l := len(nums)
-	for i := 0; i < l; i+=2 {
+	for i := 0; i < l; i += 2 {
 		sum += nums[i]
 	}
 
