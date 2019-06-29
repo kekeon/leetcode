@@ -2,10 +2,10 @@ package array
 
 func minCostClimbingStairs(cost []int) int {
 
-	first , second , sum := 0, 0, 0
+	first, second, sum := 0, 0, 0
 
 	for i := 2; i <= len(cost); i++ {
-		sum = min(first + cost[i - 2], second + cost[i-1])
+		sum = min(first+cost[i-2], second+cost[i-1])
 		first, second = second, sum
 	}
 
@@ -13,7 +13,7 @@ func minCostClimbingStairs(cost []int) int {
 
 }
 
-func min(a , b int) int{
+func min(a, b int) int {
 
 	if a >= b {
 		return b

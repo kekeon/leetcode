@@ -8,7 +8,6 @@ func commonChars(A []string) []string {
 		resM[string(v)] ++
 	}
 
-
 	for _, s := range A {
 		m := map[string]int{}
 		for _, k := range s {
@@ -20,7 +19,7 @@ func commonChars(A []string) []string {
 				if v > m[string(r)] {
 					resM[string(r)] = m[string(r)]
 				}
-			}else {
+			} else {
 				resM[string(r)] = 0
 			}
 		}
@@ -29,10 +28,9 @@ func commonChars(A []string) []string {
 	res := []string{}
 	for resk, resv := range resM {
 		for i := 0; i < resv; i++ {
-			res = append(res,resk)
+			res = append(res, resk)
 		}
 	}
-
 
 	return res
 }
