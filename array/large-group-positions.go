@@ -4,16 +4,38 @@ func largeGroupPositions(S string) [][]int {
 
 	res := [][]int{}
 
-	cache, indexs, num := string(S[0]), make([]int, 2), 0
-	indexs[0] = 0
-	for i, v := range S {
+	l := len(S)
 
-		if cache == string(v) {
-			num ++
+	if l < 3 {
+		return res
+	}
+
+	a, b, c := 1, 0, 0
+
+	for ; a < l; a++ {
+		if S[b] != S[a] {
+			if c != 0 {
+				list := []int{}
+				if c >= 2 {
+					list = append(list, b)
+					list = append(list, a-1)
+					res = append(res, list)
+				}
+
+				b = a - 1
+				c = 0
+			}
+			b ++
+		} else {
+			c ++
 		}
+	}
 
-		cache = v
-
+	if c >= 2 {
+		list := []int{}
+		list = append(list, b)
+		list = append(list, a-1)
+		res = append(res, list)
 	}
 
 	return res
