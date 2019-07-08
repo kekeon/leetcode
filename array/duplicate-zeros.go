@@ -1,10 +1,10 @@
 package array
 
-func duplicateZeros(arr []int)  {
+func duplicateZeros(arr []int) {
 
 	cache := []int{}
 
-	for i:=0; i < len(arr); i++ {
+	for i := 0; i < len(arr); i++ {
 		if arr[i] == 0 {
 			cache = append(cache, arr[i])
 		}
@@ -15,7 +15,7 @@ func duplicateZeros(arr []int)  {
 
 			if len(cache) > 1 {
 				cache = cache[1:]
-			}else {
+			} else {
 				cache = []int{}
 			}
 		}
