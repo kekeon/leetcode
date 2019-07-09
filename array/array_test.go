@@ -125,3 +125,8 @@ func TestLargeGroupPositions(t *testing.T) {
 	v := largeGroupPositions("abbxxxxzzy")
 	fmt.Println(v)
 }
+
+func TestFlipAndInvertImage(t *testing.T) {
+	v := flipAndInvertImage([][]int{{1,1,0},{1,0,1},{0,0,0}})
+	fmt.Println(v)
+}
