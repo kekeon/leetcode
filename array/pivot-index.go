@@ -11,13 +11,12 @@ func pivotIndex(nums []int) int {
 	sum := 0
 
 	for j := 0; j < l; j++ {
-		sum+=nums[j]
+		sum += nums[j]
 	}
-
 
 	for i := 0; i < l; i++ {
 
-		if l_sum * 2 == sum - nums[i] {
+		if l_sum*2 == sum-nums[i] {
 			return i
 		}
 
