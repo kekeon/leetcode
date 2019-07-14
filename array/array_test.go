@@ -130,3 +130,8 @@ func TestFlipAndInvertImage(t *testing.T) {
 	v := flipAndInvertImage([][]int{{1,1,0},{1,0,1},{0,0,0}})
 	fmt.Println(v)
 }
+
+func TestPivotIndex(t *testing.T) {
+	v := pivotIndex([]int{-1,-1,-1,-1,0, 1})
+	fmt.Println(v)
+}
