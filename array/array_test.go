@@ -135,3 +135,8 @@ func TestPivotIndex(t *testing.T) {
 	v := pivotIndex([]int{-1,-1,-1,-1,0, 1})
 	fmt.Println(v)
 }
+
+func TestDominantIndex(t *testing.T) {
+	v := dominantIndex([]int{0,0,2,3})
+	fmt.Println(v)
+}
