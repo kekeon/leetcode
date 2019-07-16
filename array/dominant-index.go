@@ -14,12 +14,12 @@ func dominantIndex(nums []int) int {
 			subMax = max
 			max = v
 			j = i
-		}else if v > subMax {
+		} else if v > subMax {
 			subMax = v
 		}
 	}
 
-	if subMax * 2 <= max {
+	if subMax*2 <= max {
 		return j
 	}
 
