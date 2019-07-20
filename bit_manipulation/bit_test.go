@@ -12,6 +12,6 @@ func TestSingleNumber(t *testing.T) {
 
 func TestReverseBits( t *testing.T) {
 
-	v := reverseBits( 238)
+	v := reverseBits( 43261596)
 	fmt.Println(v)
 }
