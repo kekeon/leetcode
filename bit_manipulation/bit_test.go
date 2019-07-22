@@ -15,3 +15,9 @@ func TestReverseBits( t *testing.T) {
 	v := reverseBits( 43261596)
 	fmt.Println(v)
 }
+
+func TestToHex( t *testing.T) {
+
+	v := toHex( 255)
+	fmt.Println(v)
+}
