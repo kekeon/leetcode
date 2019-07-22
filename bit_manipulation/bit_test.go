@@ -18,6 +18,6 @@ func TestReverseBits( t *testing.T) {
 
 func TestToHex( t *testing.T) {
 
-	v := toHex( 255)
+	v := toHex( -2)
 	fmt.Println(v)
 }

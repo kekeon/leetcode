@@ -1,13 +1,18 @@
 package bit_manipulation
 
-import "fmt"
-
 func toHex(num int) string {
 
-	if num < 0 {
-		return "ffffffff"
+	if num >= 0 {
+		return hex(num)
+	}else {
+		sum := -4294967296 - num
+		return hex(-sum)
 	}
 
+
+}
+
+func hex (num int) string{
 	m := map[int]string {
 		0: "0",
 		1: "1",
@@ -26,17 +31,16 @@ func toHex(num int) string {
 		14: "e",
 		15: "f",
 	}
-
 	var str string
-
 	for num >= 0 {
-		fmt.Println(num)
 		if num < 16 {
-			str += m[num]
+			str = m[num] + str
 			num = 0
 			return str
 		}else {
-
+			remainder := num % 16
+			str = m[remainder] + str
+			num = (num - remainder ) / 16
 		}
 	}
 
