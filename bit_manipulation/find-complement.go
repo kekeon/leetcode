@@ -5,8 +5,8 @@ func findComplement(num int) int {
 
 	for c < num {
 		c <<= 1
-		c+=1
+		c += 1
 	}
 
-	return c^num
+	return c ^ num
 }

@@ -4,12 +4,12 @@ func countPrimeSetBits(L int, R int) int {
 
 	sum := 0
 
-	for i := L; i<=R; i++ {
+	for i := L; i <= R; i++ {
 		count := 0
 		s := i
 
 		for s != 0 {
-			s &= s-1
+			s &= s - 1
 			count ++
 		}
 
@@ -27,12 +27,12 @@ func boolPrime(n int) bool {
 		return n >= 2
 	}
 
-	if n % 2 == 0 || n % 3 == 0 {
+	if n%2 == 0 || n%3 == 0 {
 		return false
 	}
 
-	for i := 5; i*i < n; i+=6 {
-		if n % 2 == 0 || n % (i+2) == 0 {
+	for i := 5; i*i < n; i += 6 {
+		if n%2 == 0 || n%(i+2) == 0 {
 			return false
 		}
 	}
