@@ -127,16 +127,16 @@ func TestLargeGroupPositions(t *testing.T) {
 }
 
 func TestFlipAndInvertImage(t *testing.T) {
-	v := flipAndInvertImage([][]int{{1,1,0},{1,0,1},{0,0,0}})
+	v := flipAndInvertImage([][]int{{1, 1, 0}, {1, 0, 1}, {0, 0, 0}})
 	fmt.Println(v)
 }
 
 func TestPivotIndex(t *testing.T) {
-	v := pivotIndex([]int{-1,-1,-1,-1,0, 1})
+	v := pivotIndex([]int{-1, -1, -1, -1, 0, 1})
 	fmt.Println(v)
 }
 
 func TestDominantIndex(t *testing.T) {
-	v := dominantIndex([]int{0,0,2,3})
+	v := dominantIndex([]int{0, 0, 2, 3})
 	fmt.Println(v)
 }
