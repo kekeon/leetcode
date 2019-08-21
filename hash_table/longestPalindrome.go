@@ -10,11 +10,11 @@ func longestPalindrome(s string) int {
 	}
 
 	for _, v := range m {
-		if v % 2 == 0 {
+		if v%2 == 0 {
 			count += v
-		}else if oddNum > 0{
-			oddNum += v-1
-		}else {
+		} else if oddNum > 0 {
+			oddNum += v - 1
+		} else {
 			oddNum += v
 		}
 	}

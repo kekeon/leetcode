@@ -5,16 +5,15 @@ func findAnagrams(s string, p string) []int {
 	subL := len(p)
 	res := []int{}
 	subMap := map[string]int{}
-	for _, k := range p{
+	for _, k := range p {
 		subMap[string(k)]++
 	}
 
-
-	for i := 0; i <= len(s) - subL; i++ {
-		subS := s[i:i+subL]
+	for i := 0; i <= len(s)-subL; i++ {
+		subS := s[i : i+subL]
 		isOk := true
 		subM := map[string]int{}
-		for _, subK := range subS{
+		for _, subK := range subS {
 			subM[string(subK)]++
 		}
 
