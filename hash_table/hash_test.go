@@ -10,3 +10,9 @@ func TestLongestPalindrome(t *testing.T) {
 	v := longestPalindrome(s)
 	fmt.Println(v)
 }
+
+func ()  {
+	s := []string{"Hello", "Alaska", "Dad", "Peace"}
+	v := findWords(s)
+	fmt.Println(v)
+}
