@@ -12,6 +12,11 @@ func Constructor() MyHashMap {
 
 }
 
+func (this *MyHashMap)  hashKey(key  int) int {
+	M := 101
+
+	return M
+}
 
 /** value will always be non-negative. */
 func (this *MyHashMap) Put(key int, value int)  {
