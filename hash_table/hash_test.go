@@ -22,3 +22,13 @@ func TestFindLHS(t *testing.T) {
 	v := findLHS(s)
 	fmt.Println(v)
 }
+
+func TestMyHashMap(t *testing.T) {
+	obj := ConstructorMap()
+
+	obj.Put(100, 10)
+	v := obj.Get(100)
+
+	fmt.Println(v)
+}
+
