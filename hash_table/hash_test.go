@@ -26,9 +26,20 @@ func TestFindLHS(t *testing.T) {
 func TestMyHashMap(t *testing.T) {
 	obj := ConstructorMap()
 
-	obj.Put(100, 10)
-	v := obj.Get(100)
+	vs := []int{}
+	obj.Put(1, 1)
+	obj.Put(2, 2)
+	v := obj.Get(1)
+	vs = append(vs, v)
+	v = obj.Get(3)
+	vs = append(vs, v)
+	obj.Put(2, 1)
+	v = obj.Get(2)
+	vs = append(vs, v)
+	obj.Remove(2)
+	v = obj.Get(2)
+	vs = append(vs, v)
 
-	fmt.Println(v)
+	fmt.Println(vs)
 }
 

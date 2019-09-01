@@ -1,7 +1,10 @@
 package hash_table
 
+// 706
+
 type LinkNode struct {
 	value int
+	key   int
 	next  *LinkNode
 }
 
@@ -12,9 +15,13 @@ type MyHashMap struct {
 
 /** Initialize your data structure here. */
 func ConstructorMap() MyHashMap {
-	return MyHashMap{
+	o := MyHashMap{
 		list: [10000]LinkNode{},
 	}
+	for i:= 0; i < len(o.list); i++ {
+		*&o.list[i].value = -1
+	}
+	return o
 }
 
 func (this *MyHashMap) hashKey(key int) int {
@@ -25,28 +32,69 @@ func (this *MyHashMap) hashKey(key int) int {
 /** value will always be non-negative. */
 func (this *MyHashMap) Put(key int, value int) {
 
-	hk := this.hashKey(key)
-	node := &this.list[hk]
-	if node.value == 0 {
+	i := this.hashKey(key)
+	node := &this.list[i]
+	if node.value == 0  || node.key == key{
 		node.value = value
 	} else {
 		valNode := LinkNode{
 			value: value,
+			key:   key,
+			next: node.next,
 		}
-		node.next = &valNode
+
+
+		*node = valNode
+
 	}
 }
 
 /** Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
 func (this *MyHashMap) Get(key int) int {
-	hk := this.hashKey(key)
-	node := this.list[hk]
+	i := this.hashKey(key)
+	node := &this.list[i]
+
+	for node.next != nil {
+
+		if node.key == key {
+			return node.value
+		} else {
+			node = node.next
+		}
+	}
+
 	return node.value
 }
 
 /** Removes the mapping of the specified value key if this map contains a mapping for the key */
 func (this *MyHashMap) Remove(key int) {
+	i := this.hashKey(key)
+	node := &this.list[i]
 
+	if node.key == key  {
+
+		if node.next == nil {
+			*node = LinkNode{
+				value: -1,
+			}
+		} else {
+			*node = *node.next
+		}
+
+		} else {
+
+		upNode := node
+
+		for node.next != nil {
+			upNode = node
+			node = node.next
+			if node.key == key {
+				upNode.next = node.next
+				break
+			}
+
+		}
+	}
 }
 
 /**
