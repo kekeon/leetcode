@@ -10,13 +10,13 @@ type LinkNode struct {
 
 // 706 
 type MyHashMap struct {
-	list [10000]LinkNode
+	list [500]LinkNode
 }
 
 /** Initialize your data structure here. */
 func ConstructorMap() MyHashMap {
 	o := MyHashMap{
-		list: [10000]LinkNode{},
+		list: [500]LinkNode{},
 	}
 	for i:= 0; i < len(o.list); i++ {
 		*&o.list[i].value = -1
@@ -34,19 +34,31 @@ func (this *MyHashMap) Put(key int, value int) {
 
 	i := this.hashKey(key)
 	node := &this.list[i]
-	if node.value == 0  || node.key == key{
+	if node.value == -1  || node.key == key{
 		node.value = value
+		node.key = key
 	} else {
+
+		for node.next != nil {
+
+			node = node.next
+			if node.key == key {
+				node.value = value
+				goto NOT
+			}
+		}
+
 		valNode := LinkNode{
 			value: value,
 			key:   key,
-			next: node.next,
 		}
-
-
-		*node = valNode
-
+		for node.next != nil {
+			node = node.next
+		}
+		node.next = &valNode
 	}
+
+	NOT:
 }
 
 /** Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
@@ -61,6 +73,10 @@ func (this *MyHashMap) Get(key int) int {
 		} else {
 			node = node.next
 		}
+	}
+
+	if node.key != key {
+		return -1
 	}
 
 	return node.value
