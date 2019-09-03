@@ -18,8 +18,8 @@ func ConstructorMap() MyHashMap {
 	o := MyHashMap{
 		list: [500]LinkNode{},
 	}
-	for i:= 0; i < len(o.list); i++ {
-		*&o.list[i].value = -1
+	for i := 0; i < len(o.list); i++ {
+		o.list[i].value = -1
 	}
 	return o
 }
@@ -34,7 +34,7 @@ func (this *MyHashMap) Put(key int, value int) {
 
 	i := this.hashKey(key)
 	node := &this.list[i]
-	if node.value == -1  || node.key == key{
+	if node.value == -1 || node.key == key {
 		node.value = value
 		node.key = key
 	} else {
@@ -58,7 +58,7 @@ func (this *MyHashMap) Put(key int, value int) {
 		node.next = &valNode
 	}
 
-	NOT:
+NOT:
 }
 
 /** Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
@@ -87,7 +87,7 @@ func (this *MyHashMap) Remove(key int) {
 	i := this.hashKey(key)
 	node := &this.list[i]
 
-	if node.key == key  {
+	if node.key == key {
 
 		if node.next == nil {
 			*node = LinkNode{
@@ -97,7 +97,7 @@ func (this *MyHashMap) Remove(key int) {
 			*node = *node.next
 		}
 
-		} else {
+	} else {
 
 		upNode := node
 
