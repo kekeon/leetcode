@@ -77,3 +77,11 @@ func TestLongestWord (t *testing.T) {
 	 v := longestWord([]string{"ts","e","x","pbhj","opto","xhigy","erikz","pbh","opt","erikzb","eri","erik","xlye","xhig","optoj","optoje","xly","pb","xhi","x","o"})
 	 fmt.Println(v)
 }
+
+//"OgEu755"
+//["enough","these","play","wide","wonder","box","arrive","money","tax","thus"]
+func TestShortestCompletingWord (t *testing.T) {
+	v := shortestCompletingWord("OgEu755", []string{"enough","these","play","wide","wonder","box","arrive","money","tax","thus"})
+	fmt.Println("============")
+	fmt.Println(v)
+}
