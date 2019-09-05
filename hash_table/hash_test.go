@@ -71,3 +71,9 @@ func TestMyHashMapOne(t *testing.T) {
 	fmt.Println(v)
 	fmt.Println(v1)
 }
+
+func TestLongestWord (t *testing.T) {
+	 // ["w","wo","wor","worl","world"]
+	 v := longestWord([]string{"ts","e","x","pbhj","opto","xhigy","erikz","pbh","opt","erikzb","eri","erik","xlye","xhig","optoj","optoje","xly","pb","xhi","x","o"})
+	 fmt.Println(v)
+}
