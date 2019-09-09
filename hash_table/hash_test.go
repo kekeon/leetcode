@@ -85,3 +85,25 @@ func TestShortestCompletingWord (t *testing.T) {
 	fmt.Println("============")
 	fmt.Println(v)
 }
+
+func TestIsAlienSorted(t *testing.T) {
+/*	words := []string{"apple","app"}
+	order := "worldabcefghijkmnpqstuvxyz"
+*/
+
+/*	words := []string{"fxasxpc","dfbdrifhp","nwzgs","cmwqriv","ebulyfyve","miracx","sxckdwzv","dtijzluhts","wwbmnge","qmjwymmyox"}
+	order := "zkgwaverfimqxbnctdplsjyohu"
+*/
+
+/*	words := []string{"hello","leetcode"}
+	order := "hlabcdefgijkmnopqrstuvwxyz"*/
+
+	/*words := []string{"kuvp","q"}
+	order := "ngxlkthsjuoqcpavbfdermiywz"*/
+
+	words := []string{"dthkre","vvjrym","zvrzapstvm","dcjkqyrr","ditmpogp","gpzzmilb","dymhwov","bytjqyqupf","vjeaumrdy","lwvozpyx"}
+	order := "tngjwhflzomueqkisxcpybdavr"
+
+	v := isAlienSorted(words, order)
+	fmt.Println(v)
+}
