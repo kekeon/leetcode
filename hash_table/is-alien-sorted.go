@@ -1,7 +1,6 @@
 package hash_table
 
-import "fmt"
-
+//953
 func isAlienSorted(words []string, order string) bool {
 
 	orderMap := map[string]int{}
@@ -32,7 +31,7 @@ func isAlienSorted(words []string, order string) bool {
 			if k1 == k2 {
 				continue
 			}
-			fmt.Println(orderMap[k1], k1,orderMap[k2], k2,words[j], words[j+1])
+//			fmt.Println(orderMap[k1], k1,orderMap[k2], k2,words[j], words[j+1])
 			//fmt.Println(orderMap[k2], k2)
 			if orderMap[k1] < orderMap[k2] {
 				b = true
