@@ -1,5 +1,6 @@
 package hash_table
 
+// 1160
 func countCharacters(words []string, chars string) int {
 	count := 0
 	cMap := map[string]int{}
