@@ -13,7 +13,7 @@ func distributeCandies(candies []int) int {
 		}
 	}
 
-	if l / 2 >= countKey {
+	if l/2 >= countKey {
 		return countKey
 	}
 

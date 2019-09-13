@@ -33,7 +33,5 @@ func countCharacters(words []string, chars string) int {
 
 	}
 
-
-
 	return count
 }
