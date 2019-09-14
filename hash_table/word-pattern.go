@@ -2,6 +2,7 @@ package hash_table
 
 import "strings"
 
+// 290
 func wordPattern(pattern string, str string) bool {
 	pm := map[string]int{}
 	sm := map[string]int{}

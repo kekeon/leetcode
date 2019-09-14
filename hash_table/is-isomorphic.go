@@ -1,5 +1,6 @@
 package hash_table
 
+// 205
 func isIsomorphic(s string, t string) bool {
 	sm := map[string]int{}
 	tm := map[string]int{}
