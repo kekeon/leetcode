@@ -8,9 +8,9 @@ func myPow(a, p int) int {
 
 	r := a
 
-	for i:= 1; i <= p; i++ {
+	for i:= 1; i < p; i++ {
 		r *= a
 	}
 
-	return a
+	return r
 }
