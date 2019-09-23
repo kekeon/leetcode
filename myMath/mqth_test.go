@@ -15,7 +15,6 @@ func TestTitleToNumber(t *testing.T) {
 	fmt.Println(v)
 }
 
-
 func TestTrailingZeroes(t *testing.T) {
 	v := trailingZeroes(30)
 	fmt.Println(v)

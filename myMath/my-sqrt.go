@@ -14,7 +14,7 @@ func mySqrt(x int) int {
 	for {
 
 		if s <= x {
-			if s == x || s + (v << 1) + 1 > x{
+			if s == x || s+(v<<1)+1 > x {
 				return v
 			}
 

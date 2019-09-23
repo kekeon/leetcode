@@ -8,9 +8,9 @@ func convertToTitle(n int) string {
 
 	s := ""
 	for n > 0 {
-		i = ( n-1 ) % 26
+		i = (n - 1) % 26
 		s = m[i] + s
-		n = (n -1) / 26
+		n = (n - 1) / 26
 	}
 
 	return s
