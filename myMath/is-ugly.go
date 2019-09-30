@@ -1,5 +1,6 @@
 package myMath
 
+// 263
 func isUgly(num int) bool {
 
 	if num == 0 {
