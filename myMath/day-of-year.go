@@ -2,6 +2,7 @@ package myMath
 
 import "strconv"
 
+// 1154
 func dayOfYear(date string) int {
 
 	days := []int{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
