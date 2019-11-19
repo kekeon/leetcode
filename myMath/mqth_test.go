@@ -19,3 +19,8 @@ func TestTrailingZeroes(t *testing.T) {
 	v := trailingZeroes(30)
 	fmt.Println(v)
 }
+
+func TestBinaryGap(t *testing.T) {
+	v := binaryGap(5)
+	fmt.Println(v)
+}
