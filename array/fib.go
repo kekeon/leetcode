@@ -25,3 +25,19 @@ func recursiveFib(N int) int {
 
 	return recursiveFib(N-1) + recursiveFib(N-2)
 }
+
+func fib2(N int) int {
+
+
+	if N <= 0 {
+		return 0
+	}
+	s := 1
+	c := 0
+	for N--; 0 < N; N-- {
+		s = s + c
+		c = s - c
+	}
+
+	return  s
+}
