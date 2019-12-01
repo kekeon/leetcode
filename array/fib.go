@@ -1,5 +1,7 @@
 package array
 
+import "fmt"
+
 func fib(N int) int {
 
 	list := []int{0, 1}
@@ -38,6 +40,5 @@ func fib2(N int) int {
 		s = s + c
 		c = s - c
 	}
-
 	return  s
 }
