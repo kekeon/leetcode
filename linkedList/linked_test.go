@@ -32,5 +32,8 @@ func TestReverseBetween(t *testing.T) {
 	}
 
 	v := reverseBetween(&node1, 2, 4)
-	fmt.Println(&v)
+	for v != nil {
+		fmt.Println(v)
+		v = v.Next
+	}
 }
