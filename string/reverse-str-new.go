@@ -38,20 +38,7 @@ func reverseStrNew(s string, k int) string {
 	return string(sByte)
 }
 
-func reverseStringNew(start, end int, s string) string {
 
-	s2 := []byte(s)
-	c := s2[start]
-	for start < end {
-		s2[start] = s[end]
-		s2[end] = c
-		start++
-		end--
-		c = s2[start]
-	}
-
-	return string(s2)
-}
 
 func reverseStringByte(start, end int, s []byte) {
 
