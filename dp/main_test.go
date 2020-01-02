@@ -23,13 +23,15 @@ func TestMinPathSum(t *testing.T) {
 		{4, 2, 1},
 	}
 
-	list1 := [][]int{
-		{7, 6, 3},
-		{8, 7, 2},
-		{7, 3, 1},
-	}
 
 	v := minPathSum(list)
 	fmt.Println(v)
-	fmt.Println(list1)
+}
+
+func TestSumRange(t *testing.T) {
+	nums := []int{-2, 0, 3, -5, 2, -1}
+	obj := Constructor(nums)
+	v := obj.SumRange(0,5)
+
+	fmt.Println(v)
 }
