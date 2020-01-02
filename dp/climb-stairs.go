@@ -1,6 +1,9 @@
-package dynamic
+package dp
 
-// 计数型动态规划，转移方程 f[n] = f[n-1] + f[n-2]
+/**
+70. 爬楼梯
+计数型动态规划，转移方程 f[n] = f[n-1] + f[n-2]
+ */
 func climbStairs(n int) int {
 
 	if n == 0 || n == 1 || n == 2{
