@@ -25,11 +25,11 @@ func uniquePaths(m int, n int) int {
 		for t := 0; t < m; t++ {
 			if j == 0 || t == 0 {
 				arr[j][t] = 1
-			}else if j-1 >= 0 && t-1 >= 0 {
+			} else if j-1 >= 0 && t-1 >= 0 {
 				arr[j][t] = arr[j-1][t] + arr[j][t-1]
 			}
 		}
 	}
 
-	return  arr[n-1][m-1]
+	return arr[n-1][m-1]
 }
