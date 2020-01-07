@@ -37,7 +37,7 @@ func TestSumRange(t *testing.T) {
 }
 
 func TestLengthOfLIS(t *testing.T) {
-	nums := []int{10,9,2,5,3,7,101,18}
+	nums := []int{10,9,2,5,3,4}
 	v := lengthOfLIS(nums)
 	fmt.Println(v)
 }
