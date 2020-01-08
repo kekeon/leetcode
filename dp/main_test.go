@@ -41,3 +41,9 @@ func TestLengthOfLIS(t *testing.T) {
 	v := lengthOfLIS(nums)
 	fmt.Println(v)
 }
+
+func TestLongestPalindromeSubseq(t *testing.T) {
+	s := "aaa"
+	v := longestPalindromeSubseq(s)
+	fmt.Println(v)
+}

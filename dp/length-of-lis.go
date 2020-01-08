@@ -1,5 +1,9 @@
 package dp
 
+/**
+300. 最长上升子序列
+[10,9,2,5,3,7,101,18] -> 4
+ */
 func lengthOfLIS(nums []int) int {
 	l := len(nums)
 
