@@ -47,3 +47,13 @@ func TestLongestPalindromeSubseq(t *testing.T) {
 	v := longestPalindromeSubseq(s)
 	fmt.Println(v)
 }
+
+func TestUpdateMatrix(t *testing.T) {
+	arr := [][]int{
+		{0,0,0},
+		{0,1,0},
+		{0,0,0},
+	}
+	v := updateMatrix(arr)
+	fmt.Println(v)
+}
