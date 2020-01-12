@@ -62,3 +62,10 @@ func TestMaxProduct(t *testing.T) {
 	v := maxProduct(arr)
 	fmt.Println(v)
 }
+
+
+func TestRob(t *testing.T) {
+	arr := []int{2,7,9,3,1}
+	v := rob2(arr)
+	fmt.Println(v)
+}

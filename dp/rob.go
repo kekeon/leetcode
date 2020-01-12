@@ -20,8 +20,7 @@ func rob(nums []int) int {
 		return nums[0]
 	}
 
-
-	dp := make([][]int,l)
+	dp := make([][]int, l)
 	dp[0] = make([]int, 2)
 	// dp[n][0] 不偷, dp[n][1] 偷
 	dp[0][0] = 0
@@ -36,12 +35,11 @@ func rob(nums []int) int {
 	return max(dp[l-1][0], dp[l-1][1])
 }
 
-
 // 转移方程 res := max(dp[i-1] + 0, dp[i-2] + dp[i])
 func rob1(nums []int) int {
 
 	l := len(nums)
-	if len(nums) < 1 {
+	if l < 1 {
 		return 0
 	}
 
@@ -53,14 +51,32 @@ func rob1(nums []int) int {
 		return max(nums[0], nums[1])
 	}
 
-
-	dp := make([]int,l)
+	dp := make([]int, l)
 	dp[0] = nums[0]
-	dp[1] = nums[1]
+	dp[1] = max(nums[0], nums[1])
 
 	for a := 2; a < l; a++ {
-		dp[a] = max(dp[a-1], nums[a-2] + nums[a])
+		dp[a] = max(dp[a-1], dp[a-2]+nums[a])
 	}
 
 	return dp[l-1]
+}
+
+// 转移方程： 只需要保留前两个计算状态
+func rob2(nums []int) int {
+
+	if len(nums) < 1 {
+		return 0
+	}
+
+	before := 0
+	after := 0
+
+	for _, v := range nums {
+		a := after
+		after = max(after, before+v)
+		before = a
+	}
+
+	return after
 }
