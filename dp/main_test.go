@@ -23,7 +23,6 @@ func TestMinPathSum(t *testing.T) {
 		{4, 2, 1},
 	}
 
-
 	v := minPathSum(list)
 	fmt.Println(v)
 }
@@ -31,13 +30,13 @@ func TestMinPathSum(t *testing.T) {
 func TestSumRange(t *testing.T) {
 	nums := []int{-2, 0, 3, -5, 2, -1}
 	obj := Constructor(nums)
-	v := obj.SumRange(0,5)
+	v := obj.SumRange(0, 5)
 
 	fmt.Println(v)
 }
 
 func TestLengthOfLIS(t *testing.T) {
-	nums := []int{10,9,2,5,3,4}
+	nums := []int{10, 9, 2, 5, 3, 4}
 	v := lengthOfLIS(nums)
 	fmt.Println(v)
 }
@@ -50,10 +49,16 @@ func TestLongestPalindromeSubseq(t *testing.T) {
 
 func TestUpdateMatrix(t *testing.T) {
 	arr := [][]int{
-		{0,0,0},
-		{0,1,0},
-		{0,0,0},
+		{0, 0, 0},
+		{0, 1, 0},
+		{0, 0, 0},
 	}
 	v := updateMatrix(arr)
+	fmt.Println(v)
+}
+
+func TestMaxProduct(t *testing.T) {
+	arr := []int{2, 3, -2, 4}
+	v := maxProduct(arr)
 	fmt.Println(v)
 }
