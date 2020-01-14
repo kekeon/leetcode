@@ -72,6 +72,7 @@ func robTwoMax(start int, end int, nums []int) int {
 
 	l := end - start + 1
 
+	// 只记录偷与不偷的最大值
 	arr := make([]int, l)
 	arr[0] = nums[start]
 	arr[1] = max(nums[start], nums[start+1])
@@ -87,6 +88,7 @@ func robTwoMax2(start int, end int, nums []int) int {
 
 	l := end - start + 1
 
+	// 只记录前后值， 变量优化
 	after := nums[start]
 	before := max(nums[start], nums[start+1])
 	res := max(after, before)
