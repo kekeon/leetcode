@@ -69,3 +69,9 @@ func TestRob(t *testing.T) {
 	v := rob2(arr)
 	fmt.Println(v)
 }
+
+func TestRobTwo(t *testing.T) {
+	arr := []int{1, 2, 3, 1}
+	v := robTwo(arr)
+	fmt.Println(v)
+}
