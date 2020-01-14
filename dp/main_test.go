@@ -72,6 +72,6 @@ func TestRob(t *testing.T) {
 
 func TestRobTwo(t *testing.T) {
 	arr := []int{1, 2, 3, 1}
-	v := robTwo(arr)
+	v := robTwo2(arr)
 	fmt.Println(v)
 }
