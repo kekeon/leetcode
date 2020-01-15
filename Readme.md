@@ -17,7 +17,7 @@
 | [226](https://github.com/kekeon/leetcode/blob/master/tree/inver-tree.go)  |Invert Binary Tree | tree  | Easy |
 | [235](https://github.com/kekeon/leetcode/blob/master/tree/lowest-common-ancestor.go)  |Lowest Common Ancestor of a Binary Search Tree| tree  | Easy |
 | [257](https://github.com/kekeon/leetcode/blob/master/tree/binary-tree-paths.go)  | Binary Tree Paths| tree  | Easy |
-| [404](https://github.com/kekeon/leetcode/blob/master/tree/sum-of-left-levels.go)  | Sum of Left Leaves| tree  | Easy |
+| [404](https://github.com/kekeon/leetcode/blob/master/tree/sum-of-left-leaves.go)  | Sum of Left Leaves| tree  | Easy |
 | [437](https://github.com/kekeon/leetcode/blob/master/tree/path-sum.go)  | Path Sum III| tree  | Easy |
 | [501](https://github.com/kekeon/leetcode/blob/master/tree/find-mode.go)  | Find Mode in Binary Search Tree| tree  | Easy |
 | [538](https://github.com/kekeon/leetcode/blob/master/tree/convert-bst.go)  | Convert BST to Greater Tree| tree  | Easy |
