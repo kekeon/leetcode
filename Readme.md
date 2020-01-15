@@ -9,7 +9,7 @@
 | [100](https://github.com/kekeon/leetcode/blob/master/tree/preorder-traversal.go)  | Same Tree   | tree  | Easy |
 | [101](https://github.com/kekeon/leetcode/blob/master/tree/is-symmetric.go)  | Symmetric Tree   | tree  | Easy |
 | [104](https://github.com/kekeon/leetcode/blob/master/tree/max-depth.go)  |  Maximum Depth of Binary Tree    | tree  | Easy |
-| [105](https://github.com/kekeon/leetcode/blob/master/tree/level-order-bottom.go)  |Construct Binary Tree from Preorder and Inorder Traversal      | tree  | Easy |
+| [105](https://github.com/kekeon/leetcode/blob/master/tree/level-order-bottom.go)  |Construct Binary Tree from Preorder and Inorder Traversal      | tree  | Medium |
 | [108](https://github.com/kekeon/leetcode/blob/master/tree/sorted-array-to-bst.go)  |Convert Sorted Array to Binary Search Tree      | tree  | Easy |
 | [110](https://github.com/kekeon/leetcode/blob/master/tree/is-balanced.go)  |Balanced Binary Tree      | tree  | Easy |
 | [111](https://github.com/kekeon/leetcode/blob/master/tree/min-depth.go)  |Minimum Depth of Binary Tree    | tree  | Easy |
