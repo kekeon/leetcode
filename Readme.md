@@ -33,9 +33,11 @@
 | [872](https://github.com/kekeon/leetcode/blob/master/tree/leaf-similar.go)  |  Leaf-Similar Trees| tree  | Easy |
 | [687](https://github.com/kekeon/leetcode/blob/master/tree/longest-univalue-path.go)  |   Longest Univalue Path| tree  | Easy |
 | [783](https://github.com/kekeon/leetcode/blob/master/tree/min-diff-in-bst.go)  |  Minimum Distance Between BST Nodes| tree  | Easy |
+| [897](https://github.com/kekeon/leetcode/blob/master/tree/increasing-bst.go)  |  Increasing Order Search Tree| tree  | Easy |
 | [938](https://github.com/kekeon/leetcode/blob/master/tree/range-sum-bst.go)  | Range Sum of BST| tree  | Easy |
 | [700](https://github.com/kekeon/leetcode/blob/master/tree/search-bst.go)  |  Search in a Binary Search Tree| tree  | Easy |
 | [669](https://github.com/kekeon/leetcode/blob/master/tree/trim-BST.go)  |  Trim a Binary Search Tree| tree  | Easy |
+| [1022](https://github.com/kekeon/leetcode/blob/master/tree/sum-root-to-leaf.go)  |Sum of Root To Leaf Binary Numbers| tree  | Easy |
 | [509](https://github.com/kekeon/leetcode/blob/master/array/fib.go)  |   Fibonacci Number| array  | Easy |
 
 
