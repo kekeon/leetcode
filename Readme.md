@@ -26,6 +26,7 @@
 | [572](https://github.com/kekeon/leetcode/blob/master/tree/is-subtree.go)  |  Subtree of Another Tree| tree  | Easy |
 | [606](https://github.com/kekeon/leetcode/blob/master/tree/tree-2-str.go)  |  Construct String from Binary Tree| tree  | Easy |
 | [617](https://github.com/kekeon/leetcode/blob/master/tree/merge-trees.go)  |  Merge Two Binary Trees| tree  | Easy |
+| [637](https://github.com/kekeon/leetcode/blob/master/tree/average-of-levels.go)  |  Average of Levels in Binary Tree| tree  | Easy |
 | [509](https://github.com/kekeon/leetcode/blob/master/array/fib.go)  |   Fibonacci Number| array  | Easy |
 
 
