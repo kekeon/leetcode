@@ -2,7 +2,7 @@ package tree
 
 import "math"
 
-func getMinimumDifference(root *TreeNode1) int {
+func minDiffInBST(root *TreeNode1) int {
 
 	minLeft := math.MaxInt64
 	minRight := math.MaxInt64
@@ -13,7 +13,7 @@ func getMinimumDifference(root *TreeNode1) int {
 			node = node.Right
 		}
 
-		minLeft = min(abs(root.Val-node.Val), getMinimumDifference(root.Left))
+		minLeft = min(abs(root.Val - node.Val), minDiffInBST(root.Left))
 	}
 
 	if root.Right != nil {
@@ -22,8 +22,17 @@ func getMinimumDifference(root *TreeNode1) int {
 			node = node.Left
 		}
 
-		minRight = min(abs(root.Val-node.Val), getMinimumDifference(root.Right))
+		minRight = min(abs(root.Val - node.Val), minDiffInBST(root.Right))
 	}
 
 	return min(minLeft, minRight)
+}
+
+
+func abs(i int) int {
+	if i < 0 {
+		return -i
+	}
+
+	return i
 }
