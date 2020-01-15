@@ -36,6 +36,7 @@
 | [872](https://github.com/kekeon/leetcode/blob/master/tree/leaf-similar.go)  |  Leaf-Similar Trees| tree  | Easy |
 | [897](https://github.com/kekeon/leetcode/blob/master/tree/increasing-bst.go)  |  Increasing Order Search Tree| tree  | Easy |
 | [938](https://github.com/kekeon/leetcode/blob/master/tree/range-sum-bst.go)  | Range Sum of BST| tree  | Easy |
+| [965](https://github.com/kekeon/leetcode/blob/master/tree/is-unival-tree.go)  |   Univalued Binary Tree| tree  | Easy |
 | [993](https://github.com/kekeon/leetcode/blob/master/tree/is-cousins.go)  |  Cousins in Binary Tree| tree  | Easy |
 | [1022](https://github.com/kekeon/leetcode/blob/master/tree/sum-root-to-leaf.go)  |Sum of Root To Leaf Binary Numbers| tree  | Easy |
 | [509](https://github.com/kekeon/leetcode/blob/master/array/fib.go)  |   Fibonacci Number| array  | Easy |
