@@ -20,6 +20,7 @@
 | [404](https://github.com/kekeon/leetcode/blob/master/tree/sum-of-left-leaves.go)  | Sum of Left Leaves| tree  | Easy |
 | [437](https://github.com/kekeon/leetcode/blob/master/tree/path-sum.go)  | Path Sum III| tree  | Easy |
 | [501](https://github.com/kekeon/leetcode/blob/master/tree/find-mode.go)  | Find Mode in Binary Search Tree| tree  | Easy |
+| [530](https://github.com/kekeon/leetcode/blob/master/tree/get-minimum-difference.go)  |  Minimum Absolute Difference in BST| tree  | Easy |
 | [538](https://github.com/kekeon/leetcode/blob/master/tree/convert-bst.go)  | Convert BST to Greater Tree| tree  | Easy |
 | [543](https://github.com/kekeon/leetcode/blob/master/tree/diameter-of-binary-tree.go)  | Diameter of Binary Tree| tree  | Easy |
 | [563](https://github.com/kekeon/leetcode/blob/master/tree/binary-tree-paths.go)  | Binary Tree Tilt| tree  | Easy |
