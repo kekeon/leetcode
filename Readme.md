@@ -27,7 +27,7 @@
 | [606](https://github.com/kekeon/leetcode/blob/master/tree/tree-2-str.go)  |  Construct String from Binary Tree| tree  | Easy |
 | [617](https://github.com/kekeon/leetcode/blob/master/tree/merge-trees.go)  |  Merge Two Binary Trees| tree  | Easy |
 | [637](https://github.com/kekeon/leetcode/blob/master/tree/average-of-levels.go)  |  Average of Levels in Binary Tree| tree  | Easy |
-| [671](https://github.com/kekeon/leetcode/blob/master/tree/find-second-minimim-value.go)  |  Second Minimum Node In a Binary Tree| tree  | Easy |
+| [671](https://github.com/kekeon/leetcode/blob/master/tree/find-second-minimum-value.go)  |  Second Minimum Node In a Binary Tree| tree  | Easy |
 | [653](https://github.com/kekeon/leetcode/blob/master/tree/find-target.go)  |   Two Sum IV - Input is a BST| tree  | Easy |
 | [993](https://github.com/kekeon/leetcode/blob/master/tree/is-cousins.go)  |  Cousins in Binary Tree| tree  | Easy |
 | [872](https://github.com/kekeon/leetcode/blob/master/tree/leaf-similar.go)  |  Leaf-Similar Trees| tree  | Easy |
