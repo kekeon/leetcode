@@ -45,7 +45,7 @@
 | [118](https://github.com/kekeon/leetcode/blob/master/array/generate.go)  |   Pascal's Triangle| array  | Easy |
 | [119](https://github.com/kekeon/leetcode/blob/master/array/get-row.go)  |   Pascal's Triangle II| array  | Easy |
 | [121](https://github.com/kekeon/leetcode/blob/master/array/max-profit.go)  |  Best Time to Buy and Sell Stock| array  | Easy |
-| [122](https://github.com/kekeon/leetcode/blob/master/array/max-profitl-ll.go)  |   Best Time to Buy and Sell Stock II| array  | Easy |
+| [122](https://github.com/kekeon/leetcode/blob/master/array/max-profitI-II.go)  |   Best Time to Buy and Sell Stock II| array  | Easy |
 | [169](https://github.com/kekeon/leetcode/blob/master/array/majority-element.go)  |   Majority Element| array  | Easy |
 | [189](https://github.com/kekeon/leetcode/blob/master/array/rotate.go)  |   Rotate Array| array  | Easy |
 | [217](https://github.com/kekeon/leetcode/blob/master/array/contains-duplicate.go)  |  Contains Duplicate| array  | Easy |
