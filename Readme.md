@@ -45,7 +45,7 @@
 | [118](https://github.com/kekeon/leetcode/blob/master/array/generate.go)  |   Pascal's Triangle| array  | Easy |
 | [119](https://github.com/kekeon/leetcode/blob/master/array/get-row.go)  |   Pascal's Triangle II| array  | Easy |
 | [121](https://github.com/kekeon/leetcode/blob/master/array/max-profit.go)  |  Best Time to Buy and Sell Stock| array  | Easy |
-| [122](https://github.com/kekeon/leetcode/blob/master/array/max-Profitl-ll.go)  |   Best Time to Buy and Sell Stock II| array  | Easy |
+| [122](https://github.com/kekeon/leetcode/blob/master/array/max-profitl-ll.go)  |   Best Time to Buy and Sell Stock II| array  | Easy |
 | [169](https://github.com/kekeon/leetcode/blob/master/array/majority-element.go)  |   Majority Element| array  | Easy |
 | [189](https://github.com/kekeon/leetcode/blob/master/array/rotate.go)  |   Rotate Array| array  | Easy |
 | [217](https://github.com/kekeon/leetcode/blob/master/array/contains-duplicate.go)  |  Contains Duplicate| array  | Easy |
@@ -54,7 +54,7 @@
 | [485](https://github.com/kekeon/leetcode/blob/master/array/find-max-consecutive-ones.go)  |    Max Consecutive Ones| array  | Easy |
 | [509](https://github.com/kekeon/leetcode/blob/master/array/fib.go)  |   Fibonacci Number| array  | Easy |
 | [561](https://github.com/kekeon/leetcode/blob/master/array/array-pair-sum.go)  |  Array Partition I| array  | Easy |
-| [566](https://github.com/kekeon/leetcode/blob/master/array/matrix-reshape.go)  |   Reshape the Matrix| array  | Easy |
+| [566](https://github.com/kekeon/leetcode/blob/master/array/matrix-peshape.go)  |   Reshape the Matrix| array  | Easy |
 | [581](https://github.com/kekeon/leetcode/blob/master/array/find-unsorted-subarray.go)  |   Shortest Unsorted Continuous Subarray| array  | Easy |
 | [628](https://github.com/kekeon/leetcode/blob/master/array/maximum-product.go)  |   Maximum Product of Three Numbers| array  | Easy |
 | [643](https://github.com/kekeon/leetcode/blob/master/array/find-max-average.go)  |    Maximum Average Subarray I| array  | Easy |
