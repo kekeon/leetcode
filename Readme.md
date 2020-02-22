@@ -40,9 +40,49 @@
 | [965](https://github.com/kekeon/leetcode/blob/master/tree/is-unival-tree.go)  |   Univalued Binary Tree| tree  | Easy |
 | [993](https://github.com/kekeon/leetcode/blob/master/tree/is-cousins.go)  |  Cousins in Binary Tree| tree  | Easy |
 | [1022](https://github.com/kekeon/leetcode/blob/master/tree/sum-root-to-leaf.go)  |Sum of Root To Leaf Binary Numbers| tree  | Easy |
+| [1](https://github.com/kekeon/leetcode/blob/master/array/two-sum.go)  |   Two Sum| array  | Easy |
+| [53](https://github.com/kekeon/leetcode/blob/master/array/max-sub-array.go)  |   Maximum Subarray| array  | Easy |
+| [118](https://github.com/kekeon/leetcode/blob/master/array/generate.go)  |   Pascal's Triangle| array  | Easy |
+| [119](https://github.com/kekeon/leetcode/blob/master/array/get-row.go)  |   Pascal's Triangle II| array  | Easy |
+| [121](https://github.com/kekeon/leetcode/blob/master/array/max-profit.go)  |  Best Time to Buy and Sell Stock| array  | Easy |
+| [122](https://github.com/kekeon/leetcode/blob/master/array/max-Profitl-ll.go)  |   Best Time to Buy and Sell Stock II| array  | Easy |
+| [169](https://github.com/kekeon/leetcode/blob/master/array/majority-element.go)  |   Majority Element| array  | Easy |
+| [189](https://github.com/kekeon/leetcode/blob/master/array/rotate.go)  |   Rotate Array| array  | Easy |
+| [217](https://github.com/kekeon/leetcode/blob/master/array/contains-duplicate.go)  |  Contains Duplicate| array  | Easy |
+| [219](https://github.com/kekeon/leetcode/blob/master/array/contains-nearby-duplicate.go)  |   Contains Duplicate II| array  | Easy |
+| [448](https://github.com/kekeon/leetcode/blob/master/array/find-disappeared-numbers.go)  |   Find All Numbers Disappeared in an Array| array  | Easy |
+| [485](https://github.com/kekeon/leetcode/blob/master/array/find-max-consecutive-ones.go)  |    Max Consecutive Ones| array  | Easy |
 | [509](https://github.com/kekeon/leetcode/blob/master/array/fib.go)  |   Fibonacci Number| array  | Easy |
-
-
+| [561](https://github.com/kekeon/leetcode/blob/master/array/array-pair-sum.go)  |  Array Partition I| array  | Easy |
+| [566](https://github.com/kekeon/leetcode/blob/master/array/matrix-reshape.go)  |   Reshape the Matrix| array  | Easy |
+| [581](https://github.com/kekeon/leetcode/blob/master/array/find-unsorted-subarray.go)  |   Shortest Unsorted Continuous Subarray| array  | Easy |
+| [628](https://github.com/kekeon/leetcode/blob/master/array/maximum-product.go)  |   Maximum Product of Three Numbers| array  | Easy |
+| [643](https://github.com/kekeon/leetcode/blob/master/array/find-max-average.go)  |    Maximum Average Subarray I| array  | Easy |
+| [665](https://github.com/kekeon/leetcode/blob/master/array/check-possibility.go)  |    Non-decreasing Array| array  | Easy |
+| [674](https://github.com/kekeon/leetcode/blob/master/array/find-length-of-lcis.go)  |   Longest Continuous Increasing Subsequence| array  | Easy |
+| [697](https://github.com/kekeon/leetcode/blob/master/array/find-shortest-sub-array.go)  |   Degree of an Array| array  | Easy |
+| [717](https://github.com/kekeon/leetcode/blob/master/array/is-one-bit-character.go)  |   1-bit and 2-bit Characters| array  | Easy |
+| [724](https://github.com/kekeon/leetcode/blob/master/array/pivot-index.go)  |    Find Pivot Index| array  | Easy |
+| [746](https://github.com/kekeon/leetcode/blob/master/array/min-cost-climbing-stairs.go)  |   Min Cost Climbing Stairs| array  | Easy |
+| [747](https://github.com/kekeon/leetcode/blob/master/array/dominant-index.go)  |   Largest Number At Least Twice of Others| array  | Easy |
+| [766](https://github.com/kekeon/leetcode/blob/master/array/is-toeplitz-matrix.go)  |   Toeplitz Matrix| array  | Easy |
+| [830](https://github.com/kekeon/leetcode/blob/master/array/large-group-positions.go)  |   Positions of Large Groups| array  | Easy |
+| [832](https://github.com/kekeon/leetcode/blob/master/array/flip-and-invert-image.go)  |    Flipping an Image| array  | Easy |
+| [867](https://github.com/kekeon/leetcode/blob/master/array/transpose.go)  |   Transpose Matrix| array  | Easy |
+| [888](https://github.com/kekeon/leetcode/blob/master/array/fair-candy-swap.go)  |   Fair Candy Swap| array  | Easy |
+| [896](https://github.com/kekeon/leetcode/blob/master/array/is-monotonic.go)  |  Monotonic Array| array  | Easy |
+| [905](https://github.com/kekeon/leetcode/blob/master/array/sort-array-by-parity.go)  |   Sort Array By Parity| array  | Easy |
+| [922](https://github.com/kekeon/leetcode/blob/master/array/sort-array-by-parityII.go)  |  Sort Array By Parity II| array  | Easy |
+| [941](https://github.com/kekeon/leetcode/blob/master/array/valid-mountain-array.go)  |    Valid Mountain Array| array  | Easy |
+| [977](https://github.com/kekeon/leetcode/blob/master/array/sorted-squares.go)  |   Squares of a Sorted Array| array  | Easy |
+| [985](https://github.com/kekeon/leetcode/blob/master/array/sum-even-after-queries.go)  |    Sum of Even Numbers After Queries| array  | Easy |
+| [989](https://github.com/kekeon/leetcode/blob/master/array/add-to-array-form.go)  |   Add to Array-Form of Integer| array  | Easy |
+| [999](https://github.com/kekeon/leetcode/blob/master/array/num-rook-captures.go)  |   Available Captures for Rook| array  | Easy |
+| [1002](https://github.com/kekeon/leetcode/blob/master/array/common-chars.go)  |    Find Common Characters| array  | Easy |
+| [1010](https://github.com/kekeon/leetcode/blob/master/array/num-pairs-divisible-by60.go)  |   Pairs of Songs With Total Durations Divisible by 60| array  | Easy |
+| [1013](https://github.com/kekeon/leetcode/blob/master/array/can-three-parts-equal-sum.go)  |   Partition Array Into Three Parts With Equal Sum| array  | Easy |
+| [1051](https://github.com/kekeon/leetcode/blob/master/array/height-checker.go)  |    Height Checker| array  | Easy |
+| [1089](https://github.com/kekeon/leetcode/blob/master/array/duplicate-zeros.go)  |   Duplicate Zeros| array  | Easy |
 
 
 
