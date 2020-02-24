@@ -94,7 +94,11 @@
 | [476](https://github.com/kekeon/leetcode/blob/master/bitManipulation/find-complement.go)  |   Number Complement| bitManipulation  | Easy |
 | [693](https://github.com/kekeon/leetcode/blob/master/bitManipulation/has-alternating-bits.go)  |   Binary Number with Alternating Bits| bitManipulation  | Easy |
 | [762](https://github.com/kekeon/leetcode/blob/master/bitManipulation/count-prime-set-bits.go)  |   Prime Number of Set Bits in Binary Representation| bitManipulation  | Easy |
-
+| [20](https://github.com/kekeon/leetcode/blob/master/stack/bracketValid.go)  |   Valid Parentheses| stack  | Easy |
+| [225](https://github.com/kekeon/leetcode/blob/master/stack/stack-to-queue.go)  |  Implement Stack using Queues| stack  | Easy |
+| [232](https://github.com/kekeon/leetcode/blob/master/stack/queue-to-stack.go)  |   Implement Queue using Stacks| stack  | Easy |
+| [682](https://github.com/kekeon/leetcode/blob/master/stack/cal-points.go)  |   Baseball Game| stack  | Easy |
+| [844](https://github.com/kekeon/leetcode/blob/master/stack/backspace-comparse.go)  |   Backspace String Compare| stack  | Easy |
 
 
 
