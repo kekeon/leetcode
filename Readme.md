@@ -83,6 +83,18 @@
 | [1013](https://github.com/kekeon/leetcode/blob/master/array/can-three-parts-equal-sum.go)  |   Partition Array Into Three Parts With Equal Sum| array  | Easy |
 | [1051](https://github.com/kekeon/leetcode/blob/master/array/height-checker.go)  |    Height Checker| array  | Easy |
 | [1089](https://github.com/kekeon/leetcode/blob/master/array/duplicate-zeros.go)  |   Duplicate Zeros| array  | Easy |
+| [136](https://github.com/kekeon/leetcode/blob/master/bitManipulation/single-number.go)  |  Single Number| array  | Easy |
+| [190](https://github.com/kekeon/leetcode/blob/master/bitManipulation/reverse-bits.go)  |  Reverse Bits| array  | Easy |
+| [191](https://github.com/kekeon/leetcode/blob/master/bitManipulation/hamming-weight.go)  |  Number of 1 Bits| array  | Easy |
+| [231](https://github.com/kekeon/leetcode/blob/master/bitManipulation/is-power-of-two.go)  |   Power of Two| array  | Easy |
+| [342](https://github.com/kekeon/leetcode/blob/master/bitManipulation/is-power-of-four.go)  |   Power of Four| array  | Easy |
+| [389](https://github.com/kekeon/leetcode/blob/master/bitManipulation/find-the-difference.go)  |   Find the Difference| array  | Easy |
+| [405](https://github.com/kekeon/leetcode/blob/master/bitManipulation/to-hex.go)  |   Convert a Number to Hexadecimal| array  | Easy |
+| [461](https://github.com/kekeon/leetcode/blob/master/bitManipulation/hamming-distance.go)  |   Hamming Distance| array  | Easy |
+| [476](https://github.com/kekeon/leetcode/blob/master/bitManipulation/find-complement.go)  |   Number Complement| array  | Easy |
+| [693](https://github.com/kekeon/leetcode/blob/master/bitManipulation/has-alternating-bits.go)  |   Binary Number with Alternating Bits| array  | Easy |
+| [762](https://github.com/kekeon/leetcode/blob/master/bitManipulation/count-prime-set-bits.go)  |   Prime Number of Set Bits in Binary Representation| array  | Easy |
+
 
 
 
