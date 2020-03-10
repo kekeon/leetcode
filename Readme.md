@@ -99,6 +99,27 @@
 | [232](https://github.com/kekeon/leetcode/blob/master/stack/queue-to-stack.go)  |   Implement Queue using Stacks| stack  | Easy |
 | [682](https://github.com/kekeon/leetcode/blob/master/stack/cal-points.go)  |   Baseball Game| stack  | Easy |
 | [844](https://github.com/kekeon/leetcode/blob/master/stack/backspace-comparse.go)  |   Backspace String Compare| stack  | Easy |
-
-
-
+| [205](https://github.com/kekeon/leetcode/blob/master/hashTable/is-isomorphic.go)  |  Isomorphic Strings| hashTable  | Easy |
+| [290](https://github.com/kekeon/leetcode/blob/master/hashTable/word-pattern.go)  |   Word Pattern| hashTable  | Easy |
+| [349](https://github.com/kekeon/leetcode/blob/master/hashTable/intersection.go)  |  Intersection of Two Arrays| hashTable  | Easy |
+| [350](https://github.com/kekeon/leetcode/blob/master/hashTable/intersect.go)  |  Intersection of Two Arrays II| hashTable  | Easy |
+| [409](https://github.com/kekeon/leetcode/blob/master/hashTable/longestPalindrome.go)  |  Longest Palindrome| hashTable  | Easy |
+| [438](https://github.com/kekeon/leetcode/blob/master/hashTable/find-anagrams.go)  |  Find All Anagrams in a String| hashTable  | Medium |
+| [447](https://github.com/kekeon/leetcode/blob/master/hashTable/number-of-boomerangs.go)  |   Number of Boomerangs| hashTable  | Easy |
+| [463](https://github.com/kekeon/leetcode/blob/master/hashTable/is-land-perimeter.go)  |   Island Perimeter| hashTable  | Easy |
+| [500](https://github.com/kekeon/leetcode/blob/master/hashTable/find-words.go)  |  Keyboard Row| hashTable  | Easy |
+| [575](https://github.com/kekeon/leetcode/blob/master/hashTable/distribute-candies.go)  |   Distribute Candies| hashTable  | Easy |
+| [594](https://github.com/kekeon/leetcode/blob/master/hashTable/find-LHS.go)  |   Longest Harmonious Subsequence| hashTable  | Easy |
+| [599](https://github.com/kekeon/leetcode/blob/master/hashTable/find-restaurant.go)  |   Minimum Index Sum of Two Lists| hashTable  | Easy |
+| [645](https://github.com/kekeon/leetcode/blob/master/hashTable/find-error-nums.go)  |   Set Mismatch| hashTable  | Easy |
+| [705](https://github.com/kekeon/leetcode/blob/master/hashTable/my-hash-set.go)  |   Design HashSet| hashTable  | Easy |
+| [706](https://github.com/kekeon/leetcode/blob/master/hashTable/my-hash-map.go)  |   Design HashMap| hashTable  | Easy |
+| [720](https://github.com/kekeon/leetcode/blob/master/hashTable/longest-word.go)  |   Longest Word in Dictionary| hashTable  | Easy |
+| [748](https://github.com/kekeon/leetcode/blob/master/hashTable/shortest-completing-word.go)  |   Shortest Completing Word| hashTable  | Easy |
+| [771](https://github.com/kekeon/leetcode/blob/master/hashTable/num-jewe-is-In-stones.go)  |   Jewels and Stones | hashTable  | Easy |
+| [811](https://github.com/kekeon/leetcode/blob/master/hashTable/subdomain-visits.go)  |   Subdomain Visit Count| hashTable  | Easy |
+| [884](https://github.com/kekeon/leetcode/blob/master/hashTable/uncommon-from-sentences.go)  |   Uncommon Words from Two Sentences| hashTable  | Easy |
+| [953](https://github.com/kekeon/leetcode/blob/master/hashTable/is-alien-sorted.go)  |   Verifying an Alien Dictionary| hashTable  | Easy |
+| [961](https://github.com/kekeon/leetcode/blob/master/hashTable/repeated-n-times.go)  |   N-Repeated Element in Size 2N Array| hashTable  | Easy |
+| [1078](https://github.com/kekeon/leetcode/blob/master/hashTable/find-ocurrences.go)  |   Occurrences After Bigram| hashTable  | Easy |
+| [1160](https://github.com/kekeon/leetcode/blob/master/hashTable/count-characters.go)  |   Find Words That Can Be Formed by Characters | hashTable  | Easy |
