@@ -116,7 +116,7 @@
 | [706](https://github.com/kekeon/leetcode/blob/master/hashTable/my-hash-map.go)  |   Design HashMap| hashTable  | Easy |
 | [720](https://github.com/kekeon/leetcode/blob/master/hashTable/longest-word.go)  |   Longest Word in Dictionary| hashTable  | Easy |
 | [748](https://github.com/kekeon/leetcode/blob/master/hashTable/shortest-completing-word.go)  |   Shortest Completing Word| hashTable  | Easy |
-| [771](https://github.com/kekeon/leetcode/blob/master/hashTable/num-jewe-is-In-stones.go)  |   Jewels and Stones | hashTable  | Easy |
+| [771](https://github.com/kekeon/leetcode/blob/master/hashTable/num-jewe-is-ln-stones.go)  |   Jewels and Stones | hashTable  | Easy |
 | [811](https://github.com/kekeon/leetcode/blob/master/hashTable/subdomain-visits.go)  |   Subdomain Visit Count| hashTable  | Easy |
 | [884](https://github.com/kekeon/leetcode/blob/master/hashTable/uncommon-from-sentences.go)  |   Uncommon Words from Two Sentences| hashTable  | Easy |
 | [953](https://github.com/kekeon/leetcode/blob/master/hashTable/is-alien-sorted.go)  |   Verifying an Alien Dictionary| hashTable  | Easy |
