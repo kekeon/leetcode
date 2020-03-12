@@ -124,3 +124,26 @@
 | [1078](https://github.com/kekeon/leetcode/blob/master/hashTable/find-ocurrences.go)  |   Occurrences After Bigram| hashTable  | Easy |
 | [1160](https://github.com/kekeon/leetcode/blob/master/hashTable/count-characters.go)  |   Find Words That Can Be Formed by Characters | hashTable  | Easy |
 | [92](https://github.com/kekeon/leetcode/blob/master/linkedList/reverse-between.go)  |  Reverse Linked List II | linkedList | Medium |
+| [69](https://github.com/kekeon/leetcode/blob/master/myMath/my-sqrt.go)  |   Sqrt(x) | myMath  | Easy |
+| [168](https://github.com/kekeon/leetcode/blob/master/myMath/convert-to-title.go)  |   Excel Sheet Column Title| myMath  | Easy |
+| [171](https://github.com/kekeon/leetcode/blob/master/myMath/title-to-number.go)  |   Excel Sheet Column Number| myMath  | Easy |
+| [172](https://github.com/kekeon/leetcode/blob/master/myMath/trailing-zeroes.go)  |  Factorial Trailing Zeroes| myMath  | Easy |
+| [204](https://github.com/kekeon/leetcode/blob/master/myMath/count-primes.go)  |   Count Primes| myMath  | Easy |
+| [258](https://github.com/kekeon/leetcode/blob/master/myMath/add-digits.go)  |   Add Digits| myMath  | Easy |
+| [263](https://github.com/kekeon/leetcode/blob/master/myMath/is-ugly.go)  |   Ugly Number| myMath  | Easy |
+| [367](https://github.com/kekeon/leetcode/blob/master/myMath/is-perfect-square.go)  |   Valid Perfect Square| myMath  | Easy |
+| [441](https://github.com/kekeon/leetcode/blob/master/myMath/arrange-coins.go)  |   Arranging Coins| myMath  | Easy |
+| [728](https://github.com/kekeon/leetcode/blob/master/myMath/self-dividing-numbers.go)  |   Self Dividing Numbers| myMath  | Easy |
+| [754](https://github.com/kekeon/leetcode/blob/master/myMath/reach-number.go)  |  Reach a Number| myMath  | Medium |
+| [868](https://github.com/kekeon/leetcode/blob/master/myMath/binary-gap.go)  |  Binary Gap| myMath  | Easy |
+| [883](https://github.com/kekeon/leetcode/blob/master/myMath/projection-area.go)  |   Projection Area of 3D Shapes| myMath  | Easy |
+| [892](https://github.com/kekeon/leetcode/blob/master/myMath/surface-area.go)  |   Surface Area of 3D Shapes| myMath  | Easy |
+| [942](https://github.com/kekeon/leetcode/blob/master/myMath/di-string-match.go)  |   DI String Match| myMath  | Easy |
+| [976](https://github.com/kekeon/leetcode/blob/master/myMath/largest-perimeter.go)  |  Largest Perimeter Triangle| myMath  | Easy |
+| [1009](https://github.com/kekeon/leetcode/blob/master/myMath/bitwise-complement.go)  |   Complement of Base 10 Integer| myMath  | Easy |
+| [1103](https://github.com/kekeon/leetcode/blob/master/myMath/distribute-candies.go)  |   Distribute Candies to People| myMath  | Easy |
+| [1154](https://github.com/kekeon/leetcode/blob/master/myMath/day-of-year.go)  |   Day of the Year| myMath  | Easy |
+| [1175](https://github.com/kekeon/leetcode/blob/master/myMath/num-prime-arrangements.go)  |   Prime Arrangements| myMath  | Easy |
+| [1217](https://github.com/kekeon/leetcode/blob/master/myMath/min-cost-to-move-chips.go)  |   Play with Chips| myMath  | Easy |
+| [1232](https://github.com/kekeon/leetcode/blob/master/myMath/check-straightLine.go)  |   Check If It Is a Straight Line| myMath  | Easy |
+| [509](https://github.com/kekeon/leetcode/blob/master/array/fib.go)  |   Fibonacci Number| array  | Easy |
