@@ -146,4 +146,31 @@
 | [1175](https://github.com/kekeon/leetcode/blob/master/myMath/num-prime-arrangements.go)  |   Prime Arrangements| myMath  | Easy |
 | [1217](https://github.com/kekeon/leetcode/blob/master/myMath/min-cost-to-move-chips.go)  |   Play with Chips| myMath  | Easy |
 | [1232](https://github.com/kekeon/leetcode/blob/master/myMath/check-straightLine.go)  |   Check If It Is a Straight Line| myMath  | Easy |
+| [12](https://github.com/kekeon/leetcode/blob/master/string/int-to-roman.go)  |   Integer to Roman| string  | Medium |
+| [13](https://github.com/kekeon/leetcode/blob/master/string/romanToInt.go)  |   Roman to Integer| string  | Easy |
+| [28](https://github.com/kekeon/leetcode/blob/master/string/strStr.go)  |   Implement strStr()| string  | Easy |
+| [38](https://github.com/kekeon/leetcode/blob/master/string/countAndSay.go)  |   Count and Say| string  | Easy |
+| [58](https://github.com/kekeon/leetcode/blob/master/string/length-of-last-word.go)  |   Length of Last Word| string  | Easy |
+| [67](https://github.com/kekeon/leetcode/blob/master/string/add-binary.go)  |   Add Binary| string  | Easy |
+| [125](https://github.com/kekeon/leetcode/blob/master/string/isPalindrome.go)  |  Valid Palindrome| string  | Easy |
+| [345](https://github.com/kekeon/leetcode/blob/master/string/reverse-vowels.go)  |   Reverse Vowels of a String| string  | Easy |
+| [383](https://github.com/kekeon/leetcode/blob/master/string/can-construct.go)  |   Ransom Note| string  | Easy |
+| [387](https://github.com/kekeon/leetcode/blob/master/string/first-uniq-char.go)  |   First Unique Character in a String| string  | Easy |
+| [434](https://github.com/kekeon/leetcode/blob/master/string/count-segments.go)  |   Number of Segments in a String| string  | Easy |
+| [443](https://github.com/kekeon/leetcode/blob/master/string/compress.go)  |  String Compression| string  | Easy |
+| [459](https://github.com/kekeon/leetcode/blob/master/string/repeated-substring-pattern.go)  |   Repeated Substring Pattern| string  | Easy |
+| [520](https://github.com/kekeon/leetcode/blob/master/string/detect-capital-use.go)  |   Detect Capital| string  | Easy |
+| [521](https://github.com/kekeon/leetcode/blob/master/string/find-lus-length.go)  |  Longest Uncommon Subsequence I| string  | Easy |
+| [541](https://github.com/kekeon/leetcode/blob/master/string/reverse-str.go)  |   Reverse String II| string  | Easy |
+| [551](https://github.com/kekeon/leetcode/blob/master/string/check-record.go)  |  Student Attendance Record I| string  | Easy |
+| [557](https://github.com/kekeon/leetcode/blob/master/string/reverse-words.go)  |   Reverse Words in a String III| string  | Easy |
+| [657](https://github.com/kekeon/leetcode/blob/master/string/judge-circle.go)  |   Robot Return to Origin| string  | Easy |
+| [686](https://github.com/kekeon/leetcode/blob/master/string/repeated-string-match.go)  |   Repeated String Match| string  | Easy |
+| [709](https://github.com/kekeon/leetcode/blob/master/string/to-lower-case.go)  |  To Lower Case| string  | Easy |
+| [788](https://github.com/kekeon/leetcode/blob/master/string/rotated-digits.go)  |   Rotated Digits| string  | Easy |
+| [804](https://github.com/kekeon/leetcode/blob/master/string/unique-morse-representations.go)  |   Unique Morse Code Words| string  | Easy |
+| [819](https://github.com/kekeon/leetcode/blob/master/string/most-common-word.go)  |   Most Common Word| string  | Easy |
+| [824](https://github.com/kekeon/leetcode/blob/master/string/to-goat-latin.go)  |   Goat Latin| string  | Easy |
+| [917](https://github.com/kekeon/leetcode/blob/master/string/reverse-only-letters.go)  |   Reverse Only Letters| string  | Easy |
+| [929](https://github.com/kekeon/leetcode/blob/master/string/num-unique-emails.go)  |   Unique Email Addresses| string  | Easy |
 | [509](https://github.com/kekeon/leetcode/blob/master/array/fib.go)  |   Fibonacci Number| array  | Easy |
