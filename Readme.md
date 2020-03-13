@@ -173,4 +173,13 @@
 | [824](https://github.com/kekeon/leetcode/blob/master/string/to-goat-latin.go)  |   Goat Latin| string  | Easy |
 | [917](https://github.com/kekeon/leetcode/blob/master/string/reverse-only-letters.go)  |   Reverse Only Letters| string  | Easy |
 | [929](https://github.com/kekeon/leetcode/blob/master/string/num-unique-emails.go)  |   Unique Email Addresses| string  | Easy |
-| [509](https://github.com/kekeon/leetcode/blob/master/array/fib.go)  |   Fibonacci Number| array  | Easy |
+| [62](https://github.com/kekeon/leetcode/blob/master/dp/unique-paths.go)  |   Unique Paths| dp  | Medium |
+| [64](https://github.com/kekeon/leetcode/blob/master/dp/min-path-sum.go)  |   Minimum Path Sum| dp  | Medium |
+| [70](https://github.com/kekeon/leetcode/blob/master/dp/climb-stairs.go)  |   Climbing Stairs| dp  | Easy |
+| [198](https://github.com/kekeon/leetcode/blob/master/dp/rob.go)  |   House Robber| dp  | Easy |
+| [213](https://github.com/kekeon/leetcode/blob/master/dp/rob-two.go)  |   House Robber II| dp  | Medium |
+| [300](https://github.com/kekeon/leetcode/blob/master/dp/length-of-lis.go)  |   Longest Increasing Subsequence| dp  | Medium |
+| [303](https://github.com/kekeon/leetcode/blob/master/dp/sum-range.go)  |   Range Sum Query - Immutable| dp  | Easy |
+| [392](https://github.com/kekeon/leetcode/blob/master/dp/is-subsequence.go)  |   Is Subsequence| dp  | Easy |
+| [413](https://github.com/kekeon/leetcode/blob/master/dp/number-of-arithmetic-slices.go)  |   Arithmetic Slices| dp  | Medium |
+| [516](https://github.com/kekeon/leetcode/blob/master/dp/longest-palindrome-subseq.go)  |   Longest Palindromic Subsequence| dp  | Medium |
