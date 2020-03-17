@@ -2,36 +2,29 @@ package hashTable
 
 // 1160
 func countCharacters(words []string, chars string) int {
-	count := 0
-	cMap := map[string]int{}
 
-	for _, s := range chars {
-		cMap[string(s)]++
+	sm := map[string]int{}
+	for _, v := range chars {
+		sm[string(v)]++
 	}
 
-	str, k := "", ""
-	for _, w := range words {
-		str = ""
-		for _, v := range w {
-			k = string(v)
-			if cMap[k] > 0 {
-				cMap[k] --
-				str += k
+	l := 0
+
+	for _, word := range words {
+		m := map[string]int{}
+		tag := true
+		for _, w := range word {
+			m[string(w)] ++
+			if sm[string(w)] - m[string(w)] < 0 {
+				tag = false
+				break
 			}
 		}
 
-		// 满足就累加
-		if str == w {
-			count += len(str)
+		if tag {
+			l += len(word)
 		}
-
-		// 还原
-		for _, v := range str {
-			k = string(v)
-			cMap[k] ++
-		}
-
 	}
 
-	return count
+	return l
 }
