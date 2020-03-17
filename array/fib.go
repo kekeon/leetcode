@@ -1,7 +1,5 @@
 package array
 
-import "fmt"
-
 func fib(N int) int {
 
 	list := []int{0, 1}
