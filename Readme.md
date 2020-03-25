@@ -82,7 +82,8 @@
 | [1010](https://github.com/kekeon/leetcode/blob/master/array/num-pairs-divisible-by60.go)  |   Pairs of Songs With Total Durations Divisible by 60| array  | Easy |
 | [1013](https://github.com/kekeon/leetcode/blob/master/array/can-three-parts-equal-sum.go)  |   Partition Array Into Three Parts With Equal Sum| array  | Easy |
 | [1051](https://github.com/kekeon/leetcode/blob/master/array/height-checker.go)  |    Height Checker| array  | Easy |
-| [1089](https://github.com/kekeon/leetcode/blob/master/array/duplicate-zeros.go)  |   Duplicate Zeros| array  | Easy |
+| [1089](https://github.com/kekeon/leetcode/blob/master/array/duplicate-zeros.go)  |  Move Zeroes| array  | Easy |
+| [283](https://github.com/kekeon/leetcode/blob/master/array/move-zeroes.go)  |   Duplicate Zeros| array  | Easy |
 | [136](https://github.com/kekeon/leetcode/blob/master/bitManipulation/single-number.go)  |  Single Number| bitManipulation  | Easy |
 | [190](https://github.com/kekeon/leetcode/blob/master/bitManipulation/reverse-bits.go)  |  Reverse Bits| bitManipulation  | Easy |
 | [191](https://github.com/kekeon/leetcode/blob/master/bitManipulation/hamming-weight.go)  |  Number of 1 Bits| bitManipulation  | Easy |
