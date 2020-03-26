@@ -140,3 +140,8 @@ func TestDominantIndex(t *testing.T) {
 	v := dominantIndex([]int{0, 0, 2, 3})
 	fmt.Println(v)
 }
+
+func TestMaxArea(t *testing.T) {
+	v := maxArea([]int{0, 2})
+	fmt.Println(v)
+}
