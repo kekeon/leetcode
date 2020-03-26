@@ -6,7 +6,7 @@ package dp
  */
 func climbStairs(n int) int {
 
-	if n == 0 || n == 1 || n == 2{
+	if n <= 2{
 		return n
 	}
 
@@ -20,4 +20,23 @@ func climbStairs(n int) int {
 	}
 
 	return arr[n]
+}
+
+func climbStairsOptimization(n int) int {
+
+	if n  <= 2{
+		return n
+	}
+
+	a := 1
+	b := 2
+	c := 3
+
+	for i := 3; i <= n; i++ {
+		c = a + b
+		a = b
+		b =c
+	}
+
+	return c
 }
