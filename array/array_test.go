@@ -32,7 +32,7 @@ func TestMaxProfit(t *testing.T) {
 // [1,2,3,4,4,9,56,90]
 
 func TestTwoSum(t *testing.T) {
-	v := twoSum([]int{3, 2, 4}, 6)
+	v := twoSum([]int{2,4,2,5,7,11,15}, 9)
 
 	fmt.Println(v)
 }
