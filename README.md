@@ -129,6 +129,7 @@
 |          [1160](https://github.com/kekeon/leetcode/blob/master/hashTable/count-characters.go) | Find Words That Can Be Formed by Characters         |       HashTable |       Easy |
 |            [92](https://github.com/kekeon/leetcode/blob/master/linkedList/reverse-between.go) | Reverse Linked List II                              |      LinkedList |     Medium |
 |                   [141](https://github.com/kekeon/leetcode/blob/master/linkedList/has-cycle.go)| Linked List Cycle                                   |      LinkedList |       Easy |
+|                   [142](https://github.com/kekeon/leetcode/blob/master/linkedList/detect-cycle.go)| Linked List Cycle II                                |      LinkedList |       Medium |
 |                        [69](https://github.com/kekeon/leetcode/blob/master/myMath/my-sqrt.go) | Sqrt(x)                                             |            Math |       Easy |
 |              [168](https://github.com/kekeon/leetcode/blob/master/myMath/convert-to-title.go) | Excel Sheet Column Title                            |            Math |       Easy |
 |               [171](https://github.com/kekeon/leetcode/blob/master/myMath/title-to-number.go) | Excel Sheet Column Number                           |            Math |       Easy |
@@ -188,3 +189,4 @@
 |                    [392](https://github.com/kekeon/leetcode/blob/master/dp/is-subsequence.go) | Is Subsequence                                      |              DP |       Easy |
 |       [413](https://github.com/kekeon/leetcode/blob/master/dp/number-of-arithmetic-slices.go) | Arithmetic Slices                                   |              DP |     Medium |
 |         [516](https://github.com/kekeon/leetcode/blob/master/dp/longest-palindrome-subseq.go) | Longest Palindromic Subsequence                     |              DP |     Medium |
+
