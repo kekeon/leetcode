@@ -74,11 +74,6 @@ func TestHasCycle(t *testing.T) {
 }
 
 func TestDetectCycle(t *testing.T) {
-	/*	node5 := ListNode{
-			Val:  5,
-			Next: nil,
-		}
-	*/
 	node4 := ListNode{
 		Val:  -4,
 		Next: nil,
