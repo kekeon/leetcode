@@ -1,17 +1,14 @@
 package stack
 
 func maxDepthAfterSplit(seq string) []int {
-	dep := 0
 	arr := []int{}
 
-	for _, v := range seq {
+	for i, v := range seq {
 		if v == '(' {
-			dep ++
-			arr = append(arr, dep)
+			arr = append(arr, i % 2)
 		} else {
 
-			arr = arr[0: len(arr) - 1]
-			arr = append(arr, dep)
+			arr = append(arr, 1 - i % 2)
 		}
 	}
 
