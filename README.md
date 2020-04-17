@@ -87,6 +87,7 @@
 |               [1089](https://github.com/kekeon/leetcode/blob/master/array/duplicate-zeros.go) | Duplicate Zeros                                     |           Array |       Easy |
 |                    [283](https://github.com/kekeon/leetcode/blob/master/array/move-zeroes.go) | Move Zeroes                                         |           Array |       Easy |
 |                    [11](https://github.com/kekeon/leetcode/blob/master/array/max-area.go)     | Container With Most Water                           |           Array |      Medium|
+|                    [11](https://github.com/kekeon/leetcode/blob/master/array/generate-parentheses.go)     | Generate Parentheses                           |           Array |      Medium|
 |        [136](https://github.com/kekeon/leetcode/blob/master/bitManipulation/single-number.go) | Single Number                                       | BitManipulation |       Easy |
 |         [190](https://github.com/kekeon/leetcode/blob/master/bitManipulation/reverse-bits.go) | Reverse Bits                                        | BitManipulation |       Easy |
 |       [191](https://github.com/kekeon/leetcode/blob/master/bitManipulation/hamming-weight.go) | Number of 1 Bits                                    | BitManipulation |       Easy |

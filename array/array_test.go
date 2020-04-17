@@ -145,3 +145,9 @@ func TestMaxArea(t *testing.T) {
 	v := maxArea([]int{0, 2})
 	fmt.Println(v)
 }
+
+
+func TestGenerateParenthesis(t *testing.T) {
+	v := generateParenthesis(3)
+	fmt.Println(v)
+}
