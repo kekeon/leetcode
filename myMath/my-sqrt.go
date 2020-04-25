@@ -32,3 +32,18 @@ func mySqrt(x int) int {
 	return v
 
 }
+
+func myPow(a, p int) int {
+
+	if p == 0 {
+		return 1
+	}
+
+	r := a
+
+	for i:= 1; i < p; i++ {
+		r *= a
+	}
+
+	return r
+}

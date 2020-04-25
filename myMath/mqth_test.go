@@ -24,3 +24,8 @@ func TestBinaryGap(t *testing.T) {
 	v := binaryGap(5)
 	fmt.Println(v)
 }
+
+func TestMyPow(t *testing.T) {
+	v := myPowFloat(2, 1)
+	fmt.Println(v)
+}

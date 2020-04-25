@@ -133,6 +133,7 @@
 |                   [141](https://github.com/kekeon/leetcode/blob/master/linkedList/has-cycle.go)| Linked List Cycle                                   |      LinkedList |       Easy |
 |                   [142](https://github.com/kekeon/leetcode/blob/master/linkedList/detect-cycle.go)| Linked List Cycle II                                |      LinkedList |       Medium |
 |                        [69](https://github.com/kekeon/leetcode/blob/master/myMath/my-sqrt.go) | Sqrt(x)                                             |            Math |       Easy |
+|                        [50](https://github.com/kekeon/leetcode/blob/master/myMath/my-pow.go) | Pow(x, n)                                             |            Math |       Medium |
 |              [168](https://github.com/kekeon/leetcode/blob/master/myMath/convert-to-title.go) | Excel Sheet Column Title                            |            Math |       Easy |
 |               [171](https://github.com/kekeon/leetcode/blob/master/myMath/title-to-number.go) | Excel Sheet Column Number                           |            Math |       Easy |
 |               [172](https://github.com/kekeon/leetcode/blob/master/myMath/trailing-zeroes.go) | Factorial Trailing Zeroes                           |            Math |       Easy |
