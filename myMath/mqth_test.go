@@ -29,3 +29,8 @@ func TestMyPow(t *testing.T) {
 	v := myPowFloat(2, 1)
 	fmt.Println(v)
 }
+
+func TestSubsets(t *testing.T) {
+	v := forsubset([]int{1,2,3,4,5})
+	fmt.Println(v)
+}
