@@ -151,3 +151,8 @@ func TestGenerateParenthesis(t *testing.T) {
 	v := generateParenthesis(3)
 	fmt.Println(v)
 }
+
+func TestLetterCombinations(t *testing.T) {
+	v := letterCombinations("23")
+	fmt.Println(v)
+}

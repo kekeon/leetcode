@@ -88,6 +88,7 @@
 |               [1089](https://github.com/kekeon/leetcode/blob/master/array/duplicate-zeros.go) | Duplicate Zeros                                     |           Array |       Easy |
 |                    [283](https://github.com/kekeon/leetcode/blob/master/array/move-zeroes.go) | Move Zeroes                                         |           Array |       Easy |
 |                    [11](https://github.com/kekeon/leetcode/blob/master/array/max-area.go)     | Container With Most Water                           |           Array |      Medium|
+|                    [17](https://github.com/kekeon/leetcode/blob/master/array/letter-combinations.go)     | Letter Combinations of a Phone Number                          |           Array |      Medium|
 |                    [11](https://github.com/kekeon/leetcode/blob/master/array/generate-parentheses.go)     | Generate Parentheses                           |           Array |      Medium|
 |        [136](https://github.com/kekeon/leetcode/blob/master/bitManipulation/single-number.go) | Single Number                                       | BitManipulation |       Easy |
 |         [190](https://github.com/kekeon/leetcode/blob/master/bitManipulation/reverse-bits.go) | Reverse Bits                                        | BitManipulation |       Easy |
