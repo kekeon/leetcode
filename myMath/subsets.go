@@ -3,21 +3,23 @@ package myMath
 func subsets(nums []int) [][]int {
 	result := [][]int{}
 
-	subset(&result, nums, []int{}, 0)
+	subset(&result, nums, []int{}, len(nums) - 1)
 
 	return result
 }
 
-func subset(result *[][]int, arr []int, nums []int, index int) {
+func subset(result *[][]int, nums []int, arr []int, index int) {
 
-	if len(arr) == index {
+	if index == -1 {
 		*result = append(*result, arr)
 		return
 	}
 
-	subset(result, arr, nums, index+1)
+	subset(result, nums, arr, index - 1)
 	arr = append(arr, nums[index])
-	subset(result, arr, nums, index+1)
+
+
+	subset(result, nums, arr, index - 1)
 }
 
 func forsubset(nums []int) [][]int {
