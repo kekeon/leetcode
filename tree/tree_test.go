@@ -263,3 +263,46 @@ func TestLevelOrderBottom(t *testing.T){
 	v:= levelOrderBottom(&aNode)
 	fmt.Println(v)
 }
+
+// 层次遍历测试
+func TestLevelOrder(t *testing.T) {
+
+
+	eNode := TreeNode1{
+		Val: 7,
+		Left:	nil,
+		Right: nil,
+	}
+
+
+
+	dNode := TreeNode1{
+		Val: 15,
+		Left:	nil,
+		Right: nil,
+	}
+
+	cNode := TreeNode1{
+		Val: 20,
+		Left:	&dNode,
+		Right: &eNode,
+	}
+
+	bNode := TreeNode1{
+		Val: 9,
+		Left:	nil,
+		Right: nil,
+	}
+
+	aNode := TreeNode1{
+		Val: 3,
+		Left:	&bNode,
+		Right: &cNode,
+	}
+
+	v := levelOrder(&aNode)
+
+	fmt.Println(v)
+
+
+}
