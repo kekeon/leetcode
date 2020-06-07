@@ -38,3 +38,41 @@ func levelOrder(root *TreeNode1) [][]int {
 
 	return res
 }
+
+
+func levelOrderRun(root *TreeNode1) [][]int {
+	res := [][]int{}
+
+	if root == nil {
+		return res
+	}
+
+	levelOrderDFS(root, 0, &res)
+
+	return res
+}
+
+
+// DFS 需要记录层级
+func levelOrderDFS(root *TreeNode1, level int, result *[][]int) {
+	if root == nil {
+		return
+	}
+
+	if len(*result) == level {
+		*result = append(*result, []int{})
+	}
+
+	(*result)[level] = append((*result)[level], root.Val)
+
+	if root.Right != nil {
+		level++
+		levelOrderDFS(root.Right, level, result)
+	}
+
+	if root.Left != nil {
+		level++
+		levelOrderDFS(root.Left, level, result)
+	}
+
+}

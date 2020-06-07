@@ -300,7 +300,7 @@ func TestLevelOrder(t *testing.T) {
 		Right: &cNode,
 	}
 
-	v := levelOrder(&aNode)
+	v := levelOrderRun(&aNode)
 
 	fmt.Println(v)
 
