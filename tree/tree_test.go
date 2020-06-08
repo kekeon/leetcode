@@ -301,8 +301,6 @@ func TestLevelOrder(t *testing.T) {
 	}
 
 	v := levelOrderRun(&aNode)
-
 	fmt.Println(v)
-
 
 }

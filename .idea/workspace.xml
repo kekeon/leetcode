@@ -30,17 +30,17 @@
       <file leaf-file-name="testing.go" pinned="false" current-in-tab="false">
         <entry file="file://D:/software/Go/src/testing/testing.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1376">
+            <state relative-caret-position="16">
               <caret line="728" selection-start-line="728" selection-end-line="728" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="level-order.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="level-order.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree/level-order.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="309">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="e#204#560#0" />
               </folding>
@@ -48,11 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tree_test.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="99">
+                <caret line="44" column="79" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="79" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree_test.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree/tree_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="302" column="19" lean-forward="true" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="303" column="18" selection-start-line="303" selection-start-column="18" selection-end-line="303" selection-end-column="18" />
               <folding>
                 <element signature="n#!!block;n#TestPreorderTraversal#0" />
                 <element signature="n#!!block;n#TestIsSameTree#0" />
@@ -81,7 +93,7 @@
       <file leaf-file-name="array_test.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array/array_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5730">
+            <state relative-caret-position="16">
               <caret line="14" column="44" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
@@ -117,15 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preorder-traversal.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree/preorder-traversal.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -141,6 +144,7 @@
       <find>subsets</find>
       <find>TestSubsets</find>
       <find>mergeTrees</find>
+      <find>level</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="D:\software\Go" />
@@ -156,8 +160,9 @@
         <option value="$PROJECT_DIR$/myMath/mqth_test.go" />
         <option value="$PROJECT_DIR$/myMath/subsets.go" />
         <option value="$PROJECT_DIR$/tree/merge-trees.go" />
-        <option value="$PROJECT_DIR$/tree/tree_test.go" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tree/level-order.go" />
+        <option value="$PROJECT_DIR$/tree/tree_test.go" />
       </list>
     </option>
   </component>
@@ -170,7 +175,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="384" />
     <option name="y" value="87" />
     <option name="width" value="1299" />
@@ -198,7 +203,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +220,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,23 +354,12 @@
       <workItem from="1578671757640" duration="1604000" />
       <workItem from="1590763853059" duration="6342000" />
       <workItem from="1591374022457" duration="3579000" />
-      <workItem from="1591545645902" duration="1405000" />
+      <workItem from="1591545645902" duration="1707000" />
+      <workItem from="1591627629610" duration="1264000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.06 at 01h 09m 42s.xml">
-      <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.06 at 01h 10m 12s.xml">
-      <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.06 at 01h 10m 39s.xml">
-      <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.06 at 01h 15m 03s.xml">
-      <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.06 at 01h 15m 46s.xml">
       <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
     </history-entry>
@@ -384,9 +378,21 @@
     <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.08 at 00h 23m 48s.xml">
       <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.08 at 22h 48m 07s.xml">
+      <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.08 at 22h 49m 08s.xml">
+      <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.08 at 22h 59m 09s.xml">
+      <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestLevelOrder_in_leetcode_tree - 2020.06.08 at 22h 59m 28s.xml">
+      <configuration name="TestLevelOrder in leetcode/tree" configurationId="GoTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12930000" />
+    <option name="totallyTimeSpent" value="14496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
@@ -401,11 +407,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49232012" visible="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.82032216" weight="0.26984128" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49232012" weight="0.33156967" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.82032216" visible="true" weight="0.2680776" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20937753" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21261115" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -427,25 +433,25 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49232012" visible="true" weight="0.36120403" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2061439" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49474534" weight="0.41798943" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.82032216" weight="0.27191412" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5076799" side_tool="true" weight="0.33779263" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -463,6 +469,97 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://D:/software/Go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9328">
+          <caret line="587" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11648">
+          <caret line="728" selection-start-line="728" selection-end-line="728" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/level-order.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="e#204#560#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/tree_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1264">
+          <caret line="302" column="19" lean-forward="true" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!block;n#TestPreorderTraversal#0" />
+            <element signature="n#!!block;n#TestIsSameTree#0" />
+            <element signature="n#!!block;n#TestInorderTraversal#0" />
+            <element signature="n#!!block;n#TestLevelTraversal#0" />
+            <element signature="e#1892#1935#0" />
+            <element signature="e#1955#2001#0" />
+            <element signature="e#2500#2541#0" />
+            <element signature="e#2564#2606#0" />
+            <element signature="e#2627#2675#0" />
+            <element signature="e#2696#2737#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/merge-trees.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/array_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/level-traversal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/trim-BST.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/level-order-bottom.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="736">
+            <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/software/Go/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9328">
@@ -603,16 +700,6 @@
     <entry file="file://$PROJECT_DIR$/stack/max-depth-after-split.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="256">
-            <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myMath/my-pow.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23" />
@@ -672,13 +759,6 @@
         <state relative-caret-position="-20" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/merge-trees.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/level-traversal.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -698,15 +778,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/array/array_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5730">
+        <state relative-caret-position="16">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/merge-trees.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/software/Go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="728" selection-start-line="728" selection-end-line="728" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="99">
+            <caret line="44" column="79" selection-start-line="44" selection-start-column="74" selection-end-line="44" selection-end-column="79" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree/level-order.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding>
+            <element signature="e#204#560#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/tree_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="302" column="19" lean-forward="true" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
+        <state relative-caret-position="221">
+          <caret line="303" column="18" selection-start-line="303" selection-start-column="18" selection-end-line="303" selection-end-column="18" />
           <folding>
             <element signature="n#!!block;n#TestPreorderTraversal#0" />
             <element signature="n#!!block;n#TestIsSameTree#0" />
@@ -718,23 +832,6 @@
             <element signature="e#2564#2606#0" />
             <element signature="e#2627#2675#0" />
             <element signature="e#2696#2737#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/software/Go/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1376">
-          <caret line="728" selection-start-line="728" selection-end-line="728" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tree/level-order.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-          <folding>
-            <element signature="e#204#560#0" />
           </folding>
         </state>
       </provider>

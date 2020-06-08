@@ -64,15 +64,14 @@ func levelOrderDFS(root *TreeNode1, level int, result *[][]int) {
 	}
 
 	(*result)[level] = append((*result)[level], root.Val)
-
-	if root.Right != nil {
-		level++
-		levelOrderDFS(root.Right, level, result)
-	}
+	level++
 
 	if root.Left != nil {
-		level++
 		levelOrderDFS(root.Left, level, result)
+	}
+
+	if root.Right != nil {
+		levelOrderDFS(root.Right, level, result)
 	}
 
 }
