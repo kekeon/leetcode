@@ -32,7 +32,7 @@ func TestMaxProfit(t *testing.T) {
 // [1,2,3,4,4,9,56,90]
 
 func TestTwoSum(t *testing.T) {
-	v := twoSum([]int{2,4,2,5,7,11,15}, 9)
+	v := twoSum([]int{2, 4, 2, 5, 7, 11, 15}, 9)
 
 	fmt.Println(v)
 }
@@ -146,7 +146,6 @@ func TestMaxArea(t *testing.T) {
 	fmt.Println(v)
 }
 
-
 func TestGenerateParenthesis(t *testing.T) {
 	v := generateParenthesis(3)
 	fmt.Println(v)
@@ -154,5 +153,16 @@ func TestGenerateParenthesis(t *testing.T) {
 
 func TestLetterCombinations(t *testing.T) {
 	v := letterCombinations("23")
+	fmt.Println(v)
+}
+
+func TestNumIslands(t *testing.T) {
+	arr := [][]byte{
+		{'1', '1', '0', '0', '0'},
+		{'1', '1', '0', '0', '0'},
+		{'0', '0', '1', '0', '0'},
+		{'0', '0', '0', '1', '1'},
+	}
+	v := numIslands(arr)
 	fmt.Println(v)
 }
