@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41b18a4d-3832-4119-a63c-d6659360835f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/array/find-content-children.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -33,6 +34,15 @@
                 <caret line="166" column="37" selection-start-line="166" selection-start-column="37" selection-end-line="166" selection-end-column="37" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="find-content-children.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array/find-content-children.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -53,6 +63,7 @@
       <find>TestSubsets</find>
       <find>mergeTrees</find>
       <find>level</find>
+      <find>num-is-lands</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="D:\software\Go" />
@@ -72,6 +83,7 @@
         <option value="$PROJECT_DIR$/tree/tree_test.go" />
         <option value="$PROJECT_DIR$/array/array_test.go" />
         <option value="$PROJECT_DIR$/array/num-is-lands.go" />
+        <option value="$PROJECT_DIR$/array/find-content-children.go" />
       </list>
     </option>
   </component>
@@ -279,7 +291,7 @@
       <workItem from="1591545645902" duration="1707000" />
       <workItem from="1591627629610" duration="5237000" />
       <workItem from="1591720688048" duration="8000" />
-      <workItem from="1591976913801" duration="413000" />
+      <workItem from="1591976913801" duration="683000" />
     </task>
     <servers />
   </component>
@@ -316,11 +328,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18890000" />
+    <option name="totallyTimeSpent" value="19160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -332,10 +343,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49232012" weight="0.40035275" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.82032216" visible="true" weight="0.2680776" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.82032216" visible="true" weight="0.2680776" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21907842" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21907842" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -724,6 +735,13 @@
             <caret line="166" column="37" selection-start-line="166" selection-start-column="37" selection-end-line="166" selection-end-column="37" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array/find-content-children.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
