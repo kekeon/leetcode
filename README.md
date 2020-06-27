@@ -196,3 +196,4 @@
 |       [413](https://github.com/kekeon/leetcode/blob/master/dp/number-of-arithmetic-slices.go) | Arithmetic Slices                                   |              DP |     Medium |
 |         [516](https://github.com/kekeon/leetcode/blob/master/dp/longest-palindrome-subseq.go) | Longest Palindromic Subsequence                     |              DP |     Medium |
 
+
