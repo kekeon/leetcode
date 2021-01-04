@@ -100,3 +100,31 @@ func TestDetectCycle(t *testing.T) {
 	v := detectCycle(&node1)
 	fmt.Println(v)
 }
+
+func TestAddTwoNumbers(t *testing.T) {
+	node4 := ListNode{
+		Val:  4,
+		Next: nil,
+	}
+
+	node3 := ListNode{
+		Val:  0,
+		Next: &node4,
+	}
+
+	node2 := ListNode{
+		Val:  2,
+		Next: nil,
+	}
+
+	node1 := ListNode{
+		Val:  3,
+		Next: &node2,
+	}
+
+
+	node4.Next = &node2
+
+	v := addTwoNumbers(&node1, &node3)
+	fmt.Println(v)
+}

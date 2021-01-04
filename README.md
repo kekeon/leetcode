@@ -134,6 +134,7 @@
 |          [1160](https://github.com/kekeon/leetcode/blob/master/hashTable/count-characters.go) | Find Words That Can Be Formed by Characters         |       HashTable |       Easy |
 |            [92](https://github.com/kekeon/leetcode/blob/master/linkedList/reverse-between.go) | Reverse Linked List II                              |      LinkedList |     Medium |
 |                   [141](https://github.com/kekeon/leetcode/blob/master/linkedList/has-cycle.go)| Linked List Cycle                                   |      LinkedList |       Easy |
+|                   [141](https://github.com/kekeon/leetcode/blob/master/linkedList/add-two-numbers.go)|  Add Two Numbers                               |      LinkedList |       Medium |
 |                   [142](https://github.com/kekeon/leetcode/blob/master/linkedList/detect-cycle.go)| Linked List Cycle II                                |      LinkedList |       Medium |
 |                        [69](https://github.com/kekeon/leetcode/blob/master/myMath/my-sqrt.go) | Sqrt(x)                                             |            Math |       Easy |
 |                        [50](https://github.com/kekeon/leetcode/blob/master/myMath/my-pow.go) | Pow(x, n)                                             |            Math |       Medium |
@@ -197,3 +198,7 @@
 |         [516](https://github.com/kekeon/leetcode/blob/master/dp/longest-palindrome-subseq.go) | Longest Palindromic Subsequence                     |              DP |     Medium |
 
 
+#### Run test case
+``
+go test -v .\array -test.run TestMaxSubArray
+``
