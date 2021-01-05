@@ -186,6 +186,7 @@
 |                 [824](https://github.com/kekeon/leetcode/blob/master/string/to-goat-latin.go) | Goat Latin                                          |          String |       Easy |
 |          [917](https://github.com/kekeon/leetcode/blob/master/string/reverse-only-letters.go) | Reverse Only Letters                                |          String |       Easy |
 |             [929](https://github.com/kekeon/leetcode/blob/master/string/num-unique-emails.go) | Unique Email Addresses                              |          String |       Easy |
+|             [929](https://github.com/kekeon/leetcode/blob/master/string/length-of-longest-substring.go) | Longest Substring Without Repeating Characters                              |          String |       Medium |
 |                       [62](https://github.com/kekeon/leetcode/blob/master/dp/unique-paths.go) | Unique Paths                                        |              DP |     Medium |
 |                       [64](https://github.com/kekeon/leetcode/blob/master/dp/min-path-sum.go) | Minimum Path Sum                                    |              DP |     Medium |
 |                       [70](https://github.com/kekeon/leetcode/blob/master/dp/climb-stairs.go) | Climbing Stairs                                     |              DP |       Easy |
