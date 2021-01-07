@@ -27,7 +27,7 @@ func palindromeStr(s string) int {
 
 // w 窗口长度
 
-func longestPalindrome(s string, start, maxL int, maxStr string) string {
+func longestPalindrome(s string) string {
 
 	l := len(s)
 	if l <= 1 {
@@ -40,27 +40,30 @@ func longestPalindrome(s string, start, maxL int, maxStr string) string {
 		return s
 	}
 
+	var start, maxL int
+	maxL = 1
+	maxStr := s[0:1]
 
+	for start < l {
+		for i := start + maxL; i <= l; i++ {
+			s1 := s[start:i]
+			v1 := palindromeStr(s1)
+			fmt.Println(s1, ":=", v1, "maxL :=", maxL, maxStr)
 
-	for i := start + 1; i < l; i++ {
-		s1 := s[start:i]
-		v1 := palindromeStr(s1)
-		fmt.Println(s1, ":=", v1,  "maxL :=" , maxL, maxStr)
-
-		if v1 > maxL {
-			maxL = v1
-			maxStr = s1
+			if v1 > maxL {
+				maxL = v1
+				maxStr = s1
+			}
 		}
+		start++
 	}
 
-	start++
-	return longestPalindrome(s[start:], 0, maxL, maxStr)
+	return maxStr
 }
 
 func main() {
-	s := "aacabdkacaa"
-	v := longestPalindrome(s, 0, 0, "")
-	fmt.Println("===========")
+	s := "bba"
+	v := longestPalindrome(s)
 	fmt.Println(v)
 	// fmt.Println(palindromeStr(s))
 }
