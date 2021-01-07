@@ -90,7 +90,7 @@
 |                    [283](https://github.com/kekeon/leetcode/blob/master/array/move-zeroes.go) | Move Zeroes                                         |           Array |       Easy |
 |                    [445](https://github.com/kekeon/leetcode/blob/master/array/find-content-children.go) | Assign Cookies                                        |           Array |       Easy |
 |                    [11](https://github.com/kekeon/leetcode/blob/master/array/max-area.go)     | Container With Most Water                           |           Array |      Medium|
-|                    [3](https://github.com/kekeon/leetcode/blob/master/array/find-median-sorted-arrays.go)     | Median of Two Sorted Arrays                         |           Array |      Hard|
+|                    [4](https://github.com/kekeon/leetcode/blob/master/array/find-median-sorted-arrays.go)     | Median of Two Sorted Arrays                         |           Array |      Hard|
 |                    [17](https://github.com/kekeon/leetcode/blob/master/array/letter-combinations.go)     | Letter Combinations of a Phone Number                          |           Array |      Medium|
 |                    [11](https://github.com/kekeon/leetcode/blob/master/array/generate-parentheses.go)     | Generate Parentheses                           |           Array |      Medium|
 |        [136](https://github.com/kekeon/leetcode/blob/master/bitManipulation/single-number.go) | Single Number                                       | BitManipulation |       Easy |
@@ -187,7 +187,7 @@
 |                 [824](https://github.com/kekeon/leetcode/blob/master/string/to-goat-latin.go) | Goat Latin                                          |          String |       Easy |
 |          [917](https://github.com/kekeon/leetcode/blob/master/string/reverse-only-letters.go) | Reverse Only Letters                                |          String |       Easy |
 |             [929](https://github.com/kekeon/leetcode/blob/master/string/num-unique-emails.go) | Unique Email Addresses                              |          String |       Easy |
-|             [929](https://github.com/kekeon/leetcode/blob/master/string/length-of-longest-substring.go) | Longest Substring Without Repeating Characters                              |          String |       Medium |
+|             [3](https://github.com/kekeon/leetcode/blob/master/string/length-of-longest-substring.go) | Longest Substring Without Repeating Characters                              |          String |       Medium |
 |                       [62](https://github.com/kekeon/leetcode/blob/master/dp/unique-paths.go) | Unique Paths                                        |              DP |     Medium |
 |                       [64](https://github.com/kekeon/leetcode/blob/master/dp/min-path-sum.go) | Minimum Path Sum                                    |              DP |     Medium |
 |                       [70](https://github.com/kekeon/leetcode/blob/master/dp/climb-stairs.go) | Climbing Stairs                                     |              DP |       Easy |

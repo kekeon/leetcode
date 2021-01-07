@@ -2,6 +2,13 @@ package main
 
 import "fmt"
 
+// 滑动窗口
+/**
+
+startIndex： 起始位
+maxLength： 当前窗口最大长度
+
+ */
 func lengthOfLongestSubstringMax(s string, startIndex, maxLength int) (i , maxL int){
 
 	m := map[string]int{}
