@@ -168,8 +168,14 @@ func TestNumIslands(t *testing.T) {
 }
 
 func TestFindMedianSortedArrays(t *testing.T) {
-	num1 := []int{0,0}
-	num2 := []int{0,0}
+	num1 := []int{0, 0}
+	num2 := []int{0, 0}
 	v := findMedianSortedArrays(num1, num2)
 	fmt.Println(v)
+}
+
+func TestPermute(t *testing.T) {
+	nums := []int{1,2,3,4}
+
+	fmt.Println(permute(nums))
 }

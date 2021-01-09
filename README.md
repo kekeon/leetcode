@@ -92,7 +92,8 @@
 |                    [11](https://github.com/kekeon/leetcode/blob/master/array/max-area.go)     | Container With Most Water                           |           Array |      Medium|
 |                    [4](https://github.com/kekeon/leetcode/blob/master/array/find-median-sorted-arrays.go)     | Median of Two Sorted Arrays                         |           Array |      Hard|
 |                    [17](https://github.com/kekeon/leetcode/blob/master/array/letter-combinations.go)     | Letter Combinations of a Phone Number                          |           Array |      Medium|
-|                    [11](https://github.com/kekeon/leetcode/blob/master/array/generate-parentheses.go)     | Generate Parentheses                           |           Array |      Medium|
+|                    [22](https://github.com/kekeon/leetcode/blob/master/array/generate-parentheses.go)     | Generate Parentheses                           |           Array |      Medium|
+|                    [46](https://github.com/kekeon/leetcode/blob/master/array/permute.go)     | Permutations                           |           Array |      Medium|
 |        [136](https://github.com/kekeon/leetcode/blob/master/bitManipulation/single-number.go) | Single Number                                       | BitManipulation |       Easy |
 |         [190](https://github.com/kekeon/leetcode/blob/master/bitManipulation/reverse-bits.go) | Reverse Bits                                        | BitManipulation |       Easy |
 |       [191](https://github.com/kekeon/leetcode/blob/master/bitManipulation/hamming-weight.go) | Number of 1 Bits                                    | BitManipulation |       Easy |
