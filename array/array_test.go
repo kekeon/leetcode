@@ -175,7 +175,13 @@ func TestFindMedianSortedArrays(t *testing.T) {
 }
 
 func TestPermute(t *testing.T) {
-	nums := []int{1,2,3,4}
+	nums := []int{1, 2, 3, 4}
 
 	fmt.Println(permute(nums))
+}
+
+func TestPermuteUnique(t *testing.T) {
+	nums := []int{-1, 2, -1, 2, 1, -1, 2, 1}
+
+	fmt.Println(permuteUnique(nums))
 }
