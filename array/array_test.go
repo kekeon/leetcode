@@ -185,3 +185,9 @@ func TestPermuteUnique(t *testing.T) {
 
 	fmt.Println(permuteUnique(nums))
 }
+
+func TestPermuteCombinationSum(t *testing.T) {
+	nums := []int{2, 6, 3, 7}
+
+	fmt.Println(combinationSum(nums, 7))
+}
