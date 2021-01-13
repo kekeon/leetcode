@@ -31,6 +31,6 @@ func TestMyPow(t *testing.T) {
 }
 
 func TestSubsets(t *testing.T) {
-	v := subsets([]int{9,0,3,5,7})
+	v := subsets([]int{3,2,4,1})
 	fmt.Println(v)
 }

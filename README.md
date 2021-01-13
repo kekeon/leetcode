@@ -163,6 +163,7 @@
 |       [1175](https://github.com/kekeon/leetcode/blob/master/myMath/num-prime-arrangements.go) | Prime Arrangements                                  |            Math |       Easy |
 |       [1217](https://github.com/kekeon/leetcode/blob/master/myMath/min-cost-to-move-chips.go) | Play with Chips                                     |            Math |       Easy |
 |           [1232](https://github.com/kekeon/leetcode/blob/master/myMath/check-straightLine.go) | Check If It Is a Straight Line                      |            Math |       Easy |
+|           [78](https://github.com/kekeon/leetcode/blob/master/myMath/subsets.go) | Subsets                      |            Math |       Medium |
 |                   [12](https://github.com/kekeon/leetcode/blob/master/string/int-to-roman.go) | Integer to Roman                                    |          String |     Medium |
 |                     [13](https://github.com/kekeon/leetcode/blob/master/string/romanToInt.go) | Roman to Integer                                    |          String |       Easy |
 |                         [28](https://github.com/kekeon/leetcode/blob/master/string/strStr.go) | Implement strStr()                                  |          String |       Easy |

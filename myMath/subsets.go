@@ -1,11 +1,17 @@
 package myMath
 
+import "sort"
+
 func subsets(nums []int) [][]int {
-	result := [][]int{}
+	//result := [][]int{}
 
-	subset(&result, nums, []int{}, len(nums) - 1)
+	// subset(&result, nums, []int{}, len(nums) - 1)
+	return forsubset(nums)
+	// return result
+}
 
-	return result
+func subsetRecursion(result *[][]int, nums []int, arr []int, index int) {
+
 }
 
 func subset(result *[][]int, nums []int, arr []int, index int) {
@@ -18,29 +24,32 @@ func subset(result *[][]int, nums []int, arr []int, index int) {
 	subset(result, nums, arr, index - 1)
 	arr = append(arr, nums[index])
 
-
 	subset(result, nums, arr, index - 1)
+
 }
 
 func forsubset(nums []int) [][]int {
 
+
 	result := [][]int{}
-	result = append(result, []int{})
+	v1 := []int{}
+	result = append(result, v1)
 
 	if len(nums) == 0 {
 		return result
 	}
 
 	for _, v := range nums {
-		arr := [][]int{}
-		for _, v2 := range result {
-			n := []int{}
+		resultCopy := [][]int{}
+		resultCopy = append(resultCopy, result...)
+		for j, v2 := range resultCopy {
+
 			v2 = append(v2, v)
-			n = append(n, v2...)
-			arr = append(arr, n)
+			resultCopy[j] = append([]int{}, v2...)
+			sort.Ints(resultCopy[j])
 		}
 
-		result = append(result, arr...)
+		result = append(result, resultCopy...)
 	}
 
 	return result

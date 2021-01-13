@@ -191,3 +191,9 @@ func TestPermuteCombinationSum(t *testing.T) {
 
 	fmt.Println(combinationSum(nums, 7))
 }
+
+func TestPermuteCombinationSum2(t *testing.T) {
+	nums := []int{1, 10,1,2,7,6,1,5}
+
+	fmt.Println(combinationSum2(nums, 8))
+}
