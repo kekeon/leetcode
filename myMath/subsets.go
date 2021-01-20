@@ -1,12 +1,11 @@
 package myMath
 
-import "sort"
+import (
+	"sort"
+)
 
 func subsets(nums []int) [][]int {
-	//result := [][]int{}
-
-	// subset(&result, nums, []int{}, len(nums) - 1)
-	return forsubset(nums)
+	return backtrackResultUse(nums)
 	// return result
 }
 
@@ -21,15 +20,14 @@ func subset(result *[][]int, nums []int, arr []int, index int) {
 		return
 	}
 
-	subset(result, nums, arr, index - 1)
+	subset(result, nums, arr, index-1)
 	arr = append(arr, nums[index])
 
-	subset(result, nums, arr, index - 1)
+	subset(result, nums, arr, index-1)
 
 }
 
 func forsubset(nums []int) [][]int {
-
 
 	result := [][]int{}
 	v1 := []int{}
@@ -53,4 +51,57 @@ func forsubset(nums []int) [][]int {
 	}
 
 	return result
+}
+
+func backtrackResult(nums []int) [][]int {
+	result := [][]int{}
+	for a := 0; a <= len(nums); a++ {
+		backtrack(a, 0, []int{}, nums, &result)
+	}
+
+	return result
+}
+
+func backtrack(size int, start int, path []int, nums []int, result *[][]int) {
+	if size == len(path) {
+		p := append([]int{}, path...)
+		*result = append(*result, p)
+		return
+	}
+
+	for a := start; a < len(nums); a++ {
+		path = append(path, nums[a])
+		backtrack(size, a+1, path, nums, result)
+		path = path[0 : len(path)-1]
+	}
+}
+
+func backtrackResultUse(nums []int) [][]int {
+	sort.Ints(nums)
+
+	result := [][]int{}
+	for a := 0; a <= len(nums); a++ {
+		backtrackUse(a, 0, []int{}, nums, &result)
+	}
+
+	return result
+}
+
+func backtrackUse(size int, start int, path []int, nums []int, result *[][]int) {
+	if size == len(path) {
+		p := append([]int{}, path...)
+		*result = append(*result, p)
+		return
+	}
+
+	for a := start; a < len(nums); a++ {
+		if a > start && nums[a] == nums[a - 1] {
+			continue
+		}
+
+		path = append(path, nums[a])
+		backtrackUse(size, a+1, path, nums, result)
+		path = path[0 : len(path)-1]
+
+	}
 }
