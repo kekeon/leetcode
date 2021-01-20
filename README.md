@@ -165,6 +165,7 @@
 |           [1232](https://github.com/kekeon/leetcode/blob/master/myMath/check-straightLine.go) | Check If It Is a Straight Line                      |            Math |       Easy |
 |           [78](https://github.com/kekeon/leetcode/blob/master/myMath/subsets.go) | Subsets                      |            Math |       Medium |
 |           [77](https://github.com/kekeon/leetcode/blob/master/myMath/combine.go) | Combinations                      |            Math |       Medium |
+|           [89](https://github.com/kekeon/leetcode/blob/master/myMath/grayCode.go) | Gray Code                      |            Math |       Medium |
 |                   [12](https://github.com/kekeon/leetcode/blob/master/string/int-to-roman.go) | Integer to Roman                                    |          String |     Medium |
 |                     [13](https://github.com/kekeon/leetcode/blob/master/string/romanToInt.go) | Roman to Integer                                    |          String |       Easy |
 |                         [28](https://github.com/kekeon/leetcode/blob/master/string/strStr.go) | Implement strStr()                                  |          String |       Easy |

@@ -73,3 +73,8 @@ func TestCombine(t *testing.T) {
 	v := combine(4, 2)
 	fmt.Println(v)
 }
+
+func TestGrayCode(t *testing.T) {
+	v := grayCode(2)
+	fmt.Println(v)
+}
