@@ -31,7 +31,7 @@ func TestMyPow(t *testing.T) {
 }
 
 func TestSubsets(t *testing.T) {
-	v := subsets([]int{1,2,2})
+	v := subsets([]int{1, 2, 2})
 	fmt.Println(v)
 
 	/*
@@ -77,4 +77,20 @@ func TestCombine(t *testing.T) {
 func TestGrayCode(t *testing.T) {
 	v := grayCode(2)
 	fmt.Println(v)
+}
+
+func TestRestoreIpAddresses(t *testing.T) {
+	v := restoreIpAddresses("101023")
+	fmt.Println(v, len(v))
+}
+
+func TestExist(t *testing.T) {
+	b := [][]byte{
+		{'A', 'B', 'C', 'E'},
+		{'S', 'F', 'C', 'S'},
+		{'A', 'D', 'E', 'E'},
+	}
+	w := "ABCB"
+	v := exist(b, w)
+	fmt.Println(v, v)
 }
