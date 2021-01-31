@@ -193,7 +193,13 @@ func TestPermuteCombinationSum(t *testing.T) {
 }
 
 func TestPermuteCombinationSum2(t *testing.T) {
-	nums := []int{1, 10,1,2,7,6,1,5}
+	nums := []int{1, 10, 1, 2, 7, 6, 1, 5}
 
 	fmt.Println(combinationSum2(nums, 8))
+}
+
+func TestMajorityElement(t *testing.T) {
+	nums := []int{2, 2, 1, 1, 1, 2, 2}
+
+	fmt.Println(majorityElement(nums))
 }
