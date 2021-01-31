@@ -167,7 +167,8 @@
 |           [77](https://github.com/kekeon/leetcode/blob/master/myMath/combine.go) | Combinations                      |            Backtracking |       Medium |
 |           [89](https://github.com/kekeon/leetcode/blob/master/myMath/grayCode.go) | Gray Code                      |            Backtracking |       Medium |
 |           [93](https://github.com/kekeon/leetcode/blob/master/myMath/restoreIp-addresses.go) | Restore IP Addresses                      |            Backtracking |       Medium |
-|           [79](https://github.com/kekeon/leetcode/blob/master/myMath/restoreIp-addresses.go) | exist                     |            Backtracking |       Medium |
+|           [79](https://github.com/kekeon/leetcode/blob/master/myMath/exist.go) | exist                     |            Backtracking |       Medium |
+|           [51](https://github.com/kekeon/leetcode/blob/master/myMath/solveNQueens.go) | N-Queens                     |            Backtracking |       Hard |
 |                   [12](https://github.com/kekeon/leetcode/blob/master/string/int-to-roman.go) | Integer to Roman                                    |          String |     Medium |
 |                     [13](https://github.com/kekeon/leetcode/blob/master/string/romanToInt.go) | Roman to Integer                                    |          String |       Easy |
 |                         [28](https://github.com/kekeon/leetcode/blob/master/string/strStr.go) | Implement strStr()                                  |          String |       Easy |

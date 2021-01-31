@@ -94,3 +94,8 @@ func TestExist(t *testing.T) {
 	v := exist(b, w)
 	fmt.Println(v, v)
 }
+
+func TestSolveNQueens(t *testing.T) {
+	v := solveNQueens(4)
+	fmt.Println(v)
+}
