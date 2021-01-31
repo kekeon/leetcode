@@ -43,7 +43,7 @@ func majorityElementDivide(nums []int) int {
 
 func majorityElementRecursionCount(nums []int, num, start, end int) int {
 	count := 0
-	for a := start; a <= end; a++ {
+	for  := start;  <= end; ++ {
 		if nums[a] == num {
 			count++
 		}
