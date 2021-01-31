@@ -99,3 +99,14 @@ func TestSolveNQueens(t *testing.T) {
 	v := solveNQueens(4)
 	fmt.Println(v)
 }
+
+func TestSolveNQueensII(t *testing.T) {
+	v := solveNQueensII(4)
+	fmt.Println(v)
+}
+
+
+func TestCombinationSum3(t *testing.T) {
+	v := combinationSum3(3, 7)
+	fmt.Println(v)
+}

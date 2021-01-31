@@ -8,7 +8,7 @@ func solveNQueens(n int) [][]string {
 		path[i] = -1
 	}
 
-	solveNQueensRecursion(n, map[int]bool{}, map[int]bool{}, map[int]bool{}, 0, path , &result)
+	solveNQueensRecursion(n, map[int]bool{}, map[int]bool{}, map[int]bool{}, 0, path, &result)
 
 	return result
 }
@@ -23,19 +23,19 @@ func solveNQueensRecursion(n int, rowMap, diffXY, sumXY map[int]bool, col int, p
 	}
 
 	for i := 0; i < n; i++ {
-		if rowMap[i] || sumXY[col + i] || diffXY[col - i] {
+		if rowMap[i] || sumXY[col+i] || diffXY[col-i] {
 			continue
 		}
 
 		rowMap[i] = true
-		sumXY[col + i] = true
-		diffXY[col - i] = true
+		sumXY[col+i] = true
+		diffXY[col-i] = true
 
 		path[col] = i
 		solveNQueensRecursion(n, rowMap, diffXY, sumXY, col+1, path, res)
 		rowMap[i] = false
-		sumXY[col + i] = false
-		diffXY[col - i] = false
+		sumXY[col+i] = false
+		diffXY[col-i] = false
 		path[col] = -1
 	}
 }
@@ -51,4 +51,38 @@ func generateBoard(queens []int, n int) []string {
 		board = append(board, string(row))
 	}
 	return board
+}
+
+// N 皇后II
+
+func solveNQueensII(n int) int {
+
+	count := 0
+	solveNQueensRecursionII(n, map[int]bool{}, map[int]bool{}, map[int]bool{}, 0, &count)
+
+	return count
+}
+
+func solveNQueensRecursionII(n int, rowMap, diffXY, sumXY map[int]bool, col int, count *int) {
+
+	// 终止条件
+	if col >= n {
+		*count++
+		return
+	}
+
+	for i := 0; i < n; i++ {
+		if rowMap[i] || sumXY[col+i] || diffXY[col-i] {
+			continue
+		}
+
+		rowMap[i] = true
+		sumXY[col+i] = true
+		diffXY[col-i] = true
+
+		solveNQueensRecursionII(n, rowMap, diffXY, sumXY, col+1, count)
+		rowMap[i] = false
+		sumXY[col+i] = false
+		diffXY[col-i] = false
+	}
 }

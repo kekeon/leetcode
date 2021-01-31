@@ -95,7 +95,6 @@
 |                    [22](https://github.com/kekeon/leetcode/blob/master/array/generate-parentheses.go)     | Generate Parentheses                           |           Array |      Medium|
 |                    [46](https://github.com/kekeon/leetcode/blob/master/array/permute.go)     | Permutations                           |           Array |      Medium|
 |                    [47](https://github.com/kekeon/leetcode/blob/master/array/permute-unique.go)     | Permutations II                       |           Array |      Medium|
-|                    [39](https://github.com/kekeon/leetcode/blob/master/array/combination-sum.go)     | Combination Sum                   |           Array |      Medium|
 |        [136](https://github.com/kekeon/leetcode/blob/master/bitManipulation/single-number.go) | Single Number                                       | BitManipulation |       Easy |
 |         [190](https://github.com/kekeon/leetcode/blob/master/bitManipulation/reverse-bits.go) | Reverse Bits                                        | BitManipulation |       Easy |
 |       [191](https://github.com/kekeon/leetcode/blob/master/bitManipulation/hamming-weight.go) | Number of 1 Bits                                    | BitManipulation |       Easy |
@@ -169,6 +168,8 @@
 |           [93](https://github.com/kekeon/leetcode/blob/master/myMath/restoreIp-addresses.go) | Restore IP Addresses                      |            Backtracking |       Medium |
 |           [79](https://github.com/kekeon/leetcode/blob/master/myMath/exist.go) | exist                     |            Backtracking |       Medium |
 |           [51](https://github.com/kekeon/leetcode/blob/master/myMath/solveNQueens.go) | N-Queens                     |            Backtracking |       Hard |
+|                    [39](https://github.com/kekeon/leetcode/blob/master/array/combination-sum.go)     | Combination Sum                   |           Backtracking |      Medium|
+|                    [216](https://github.com/kekeon/leetcode/blob/master/array/combinationSum3.go)     | Combination Sum III                   |           Backtracking |      Medium|
 |                   [12](https://github.com/kekeon/leetcode/blob/master/string/int-to-roman.go) | Integer to Roman                                    |          String |     Medium |
 |                     [13](https://github.com/kekeon/leetcode/blob/master/string/romanToInt.go) | Roman to Integer                                    |          String |       Easy |
 |                         [28](https://github.com/kekeon/leetcode/blob/master/string/strStr.go) | Implement strStr()                                  |          String |       Easy |
