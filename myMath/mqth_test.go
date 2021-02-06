@@ -107,6 +107,11 @@ func TestSolveNQueensII(t *testing.T) {
 
 
 func TestCombinationSum3(t *testing.T) {
-	v := combinationSum3(3, 7)
+	v := combinationSum3(2, 18)
+	fmt.Println(v)
+}
+
+func TestGetPermutation(t *testing.T) {
+	v := getPermutation(9, 278893)
 	fmt.Println(v)
 }
