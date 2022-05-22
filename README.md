@@ -213,5 +213,5 @@
 
 #### Run test case
 ``
-go test -v .\array -test.run TestMaxSubArray
+go test -v -bench=./bit_test.go -test.run TestSingleNumber
 ``
