@@ -42,8 +42,8 @@
 |                  [965](https://github.com/kekeon/leetcode/blob/master/tree/is-unival-tree.go) | Univalued Binary Tree                               |            Tree |       Easy |
 |                      [993](https://github.com/kekeon/leetcode/blob/master/tree/is-cousins.go) | Cousins in Binary Tree                              |            Tree |       Easy |
 |               [1022](https://github.com/kekeon/leetcode/blob/master/tree/sum-root-to-leaf.go) | Sum of Root To Leaf Binary Numbers                  |            Tree |       Easy |
-|               [102](https://github.com/kekeon/leetcode/blob/master/tree/level-order.go) |    Binary Tree Level Order Traversal                      |            Tree |       Medium |
-|               [98](https://github.com/kekeon/leetcode/blob/master/tree/is-valid-BST.go) | Validate Binary Search Tree                  |            Tree |       Medium |
+|                     [102](https://github.com/kekeon/leetcode/blob/master/tree/level-order.go) | Binary Tree Level Order Traversal                   |            Tree |     Medium |
+|                     [98](https://github.com/kekeon/leetcode/blob/master/tree/is-valid-BST.go) | Validate Binary Search Tree                         |            Tree |     Medium |
 |                          [1](https://github.com/kekeon/leetcode/blob/master/array/two-sum.go) | Two Sum                                             |           Array |       Easy |
 |                   [53](https://github.com/kekeon/leetcode/blob/master/array/max-sub-array.go) | Maximum Subarray                                    |           Array |       Easy |
 |                       [118](https://github.com/kekeon/leetcode/blob/master/array/generate.go) | Pascal's Triangle                                   |           Array |       Easy |
@@ -88,13 +88,13 @@
 |                [1051](https://github.com/kekeon/leetcode/blob/master/array/height-checker.go) | Height Checker                                      |           Array |       Easy |
 |               [1089](https://github.com/kekeon/leetcode/blob/master/array/duplicate-zeros.go) | Duplicate Zeros                                     |           Array |       Easy |
 |                    [283](https://github.com/kekeon/leetcode/blob/master/array/move-zeroes.go) | Move Zeroes                                         |           Array |       Easy |
-|                    [445](https://github.com/kekeon/leetcode/blob/master/array/find-content-children.go) | Assign Cookies                                        |           Array |       Easy |
-|                    [11](https://github.com/kekeon/leetcode/blob/master/array/max-area.go)     | Container With Most Water                           |           Array |      Medium|
-|                    [4](https://github.com/kekeon/leetcode/blob/master/array/find-median-sorted-arrays.go)     | Median of Two Sorted Arrays                         |           Array |      Hard|
-|                    [17](https://github.com/kekeon/leetcode/blob/master/array/letter-combinations.go)     | Letter Combinations of a Phone Number                          |           Array |      Medium|
-|                    [22](https://github.com/kekeon/leetcode/blob/master/array/generate-parentheses.go)     | Generate Parentheses                           |           Array |      Medium|
-|                    [46](https://github.com/kekeon/leetcode/blob/master/array/permute.go)     | Permutations                           |           Array |      Medium|
-|                    [47](https://github.com/kekeon/leetcode/blob/master/array/permute-unique.go)     | Permutations II                       |           Array |      Medium|
+|          [445](https://github.com/kekeon/leetcode/blob/master/array/find-content-children.go) | Assign Cookies                                      |           Array |       Easy |
+|                        [11](https://github.com/kekeon/leetcode/blob/master/array/max-area.go) | Container With Most Water                           |           Array |     Medium |
+|        [4](https://github.com/kekeon/leetcode/blob/master/array/find-median-sorted-arrays.go) | Median of Two Sorted Arrays                         |           Array |       Hard |
+|             [17](https://github.com/kekeon/leetcode/blob/master/array/letter-combinations.go) | Letter Combinations of a Phone Number               |           Array |     Medium |
+|            [22](https://github.com/kekeon/leetcode/blob/master/array/generate-parentheses.go) | Generate Parentheses                                |           Array |     Medium |
+|                         [46](https://github.com/kekeon/leetcode/blob/master/array/permute.go) | Permutations                                        |           Array |     Medium |
+|                  [47](https://github.com/kekeon/leetcode/blob/master/array/permute-unique.go) | Permutations II                                     |           Array |     Medium |
 |        [136](https://github.com/kekeon/leetcode/blob/master/bitManipulation/single-number.go) | Single Number                                       | BitManipulation |       Easy |
 |         [190](https://github.com/kekeon/leetcode/blob/master/bitManipulation/reverse-bits.go) | Reverse Bits                                        | BitManipulation |       Easy |
 |       [191](https://github.com/kekeon/leetcode/blob/master/bitManipulation/hamming-weight.go) | Number of 1 Bits                                    | BitManipulation |       Easy |
@@ -136,11 +136,11 @@
 |           [1078](https://github.com/kekeon/leetcode/blob/master/hashTable/find-ocurrences.go) | Occurrences After Bigram                            |       HashTable |       Easy |
 |          [1160](https://github.com/kekeon/leetcode/blob/master/hashTable/count-characters.go) | Find Words That Can Be Formed by Characters         |       HashTable |       Easy |
 |            [92](https://github.com/kekeon/leetcode/blob/master/linkedList/reverse-between.go) | Reverse Linked List II                              |      LinkedList |     Medium |
-|                   [141](https://github.com/kekeon/leetcode/blob/master/linkedList/has-cycle.go)| Linked List Cycle                                   |      LinkedList |       Easy |
-|                   [141](https://github.com/kekeon/leetcode/blob/master/linkedList/add-two-numbers.go)|  Add Two Numbers                               |      LinkedList |       Medium |
-|                   [142](https://github.com/kekeon/leetcode/blob/master/linkedList/detect-cycle.go)| Linked List Cycle II                                |      LinkedList |       Medium |
+|                 [141](https://github.com/kekeon/leetcode/blob/master/linkedList/has-cycle.go) | Linked List Cycle                                   |      LinkedList |       Easy |
+|           [141](https://github.com/kekeon/leetcode/blob/master/linkedList/add-two-numbers.go) | Add Two Numbers                                     |      LinkedList |     Medium |
+|              [142](https://github.com/kekeon/leetcode/blob/master/linkedList/detect-cycle.go) | Linked List Cycle II                                |      LinkedList |     Medium |
 |                        [69](https://github.com/kekeon/leetcode/blob/master/myMath/my-sqrt.go) | Sqrt(x)                                             |            Math |       Easy |
-|                        [50](https://github.com/kekeon/leetcode/blob/master/myMath/my-pow.go) | Pow(x, n)                                             |            Math |       Medium |
+|                         [50](https://github.com/kekeon/leetcode/blob/master/myMath/my-pow.go) | Pow(x, n)                                           |            Math |     Medium |
 |              [168](https://github.com/kekeon/leetcode/blob/master/myMath/convert-to-title.go) | Excel Sheet Column Title                            |            Math |       Easy |
 |               [171](https://github.com/kekeon/leetcode/blob/master/myMath/title-to-number.go) | Excel Sheet Column Number                           |            Math |       Easy |
 |               [172](https://github.com/kekeon/leetcode/blob/master/myMath/trailing-zeroes.go) | Factorial Trailing Zeroes                           |            Math |       Easy |
@@ -162,14 +162,14 @@
 |       [1175](https://github.com/kekeon/leetcode/blob/master/myMath/num-prime-arrangements.go) | Prime Arrangements                                  |            Math |       Easy |
 |       [1217](https://github.com/kekeon/leetcode/blob/master/myMath/min-cost-to-move-chips.go) | Play with Chips                                     |            Math |       Easy |
 |           [1232](https://github.com/kekeon/leetcode/blob/master/myMath/check-straightLine.go) | Check If It Is a Straight Line                      |            Math |       Easy |
-|           [78](https://github.com/kekeon/leetcode/blob/master/myMath/subsets.go) | Subsets                      |            Backtracking |       Medium |
-|           [77](https://github.com/kekeon/leetcode/blob/master/myMath/combine.go) | Combinations                      |            Backtracking |       Medium |
-|           [89](https://github.com/kekeon/leetcode/blob/master/myMath/grayCode.go) | Gray Code                      |            Backtracking |       Medium |
-|           [93](https://github.com/kekeon/leetcode/blob/master/myMath/restoreIp-addresses.go) | Restore IP Addresses                      |            Backtracking |       Medium |
-|           [79](https://github.com/kekeon/leetcode/blob/master/myMath/exist.go) | exist                     |            Backtracking |       Medium |
-|           [51](https://github.com/kekeon/leetcode/blob/master/myMath/solveNQueens.go) | N-Queens                     |            Backtracking |       Hard |
-|                    [39](https://github.com/kekeon/leetcode/blob/master/array/combination-sum.go)     | Combination Sum                   |           Backtracking |      Medium|
-|                    [216](https://github.com/kekeon/leetcode/blob/master/array/combinationSum3.go)     | Combination Sum III                   |           Backtracking |      Medium|
+|                        [78](https://github.com/kekeon/leetcode/blob/master/myMath/subsets.go) | Subsets                                             |    Backtracking |     Medium |
+|                        [77](https://github.com/kekeon/leetcode/blob/master/myMath/combine.go) | Combinations                                        |    Backtracking |     Medium |
+|                       [89](https://github.com/kekeon/leetcode/blob/master/myMath/grayCode.go) | Gray Code                                           |    Backtracking |     Medium |
+|            [93](https://github.com/kekeon/leetcode/blob/master/myMath/restoreIp-addresses.go) | Restore IP Addresses                                |    Backtracking |     Medium |
+|                          [79](https://github.com/kekeon/leetcode/blob/master/myMath/exist.go) | exist                                               |    Backtracking |     Medium |
+|                   [51](https://github.com/kekeon/leetcode/blob/master/myMath/solveNQueens.go) | N-Queens                                            |    Backtracking |       Hard |
+|                 [39](https://github.com/kekeon/leetcode/blob/master/array/combination-sum.go) | Combination Sum                                     |    Backtracking |     Medium |
+|                [216](https://github.com/kekeon/leetcode/blob/master/array/combinationSum3.go) | Combination Sum III                                 |    Backtracking |     Medium |
 |                   [12](https://github.com/kekeon/leetcode/blob/master/string/int-to-roman.go) | Integer to Roman                                    |          String |     Medium |
 |                     [13](https://github.com/kekeon/leetcode/blob/master/string/romanToInt.go) | Roman to Integer                                    |          String |       Easy |
 |                         [28](https://github.com/kekeon/leetcode/blob/master/string/strStr.go) | Implement strStr()                                  |          String |       Easy |
@@ -197,8 +197,8 @@
 |                 [824](https://github.com/kekeon/leetcode/blob/master/string/to-goat-latin.go) | Goat Latin                                          |          String |       Easy |
 |          [917](https://github.com/kekeon/leetcode/blob/master/string/reverse-only-letters.go) | Reverse Only Letters                                |          String |       Easy |
 |             [929](https://github.com/kekeon/leetcode/blob/master/string/num-unique-emails.go) | Unique Email Addresses                              |          String |       Easy |
-|             [3](https://github.com/kekeon/leetcode/blob/master/string/length-of-longest-substring.go) | Longest Substring Without Repeating Characters                              |          String |       Medium |
-|             [5](https://github.com/kekeon/leetcode/blob/master/string/longest-palindrome.go) | Longest Palindromic Substring                              |          String |       Medium |
+|     [3](https://github.com/kekeon/leetcode/blob/master/string/length-of-longest-substring.go) | Longest Substring Without Repeating Characters      |          String |     Medium |
+|              [5](https://github.com/kekeon/leetcode/blob/master/string/longest-palindrome.go) | Longest Palindromic Substring                       |          String |     Medium |
 |                       [62](https://github.com/kekeon/leetcode/blob/master/dp/unique-paths.go) | Unique Paths                                        |              DP |     Medium |
 |                       [64](https://github.com/kekeon/leetcode/blob/master/dp/min-path-sum.go) | Minimum Path Sum                                    |              DP |     Medium |
 |                       [70](https://github.com/kekeon/leetcode/blob/master/dp/climb-stairs.go) | Climbing Stairs                                     |              DP |       Easy |
@@ -209,9 +209,8 @@
 |                    [392](https://github.com/kekeon/leetcode/blob/master/dp/is-subsequence.go) | Is Subsequence                                      |              DP |       Easy |
 |       [413](https://github.com/kekeon/leetcode/blob/master/dp/number-of-arithmetic-slices.go) | Arithmetic Slices                                   |              DP |     Medium |
 |         [516](https://github.com/kekeon/leetcode/blob/master/dp/longest-palindrome-subseq.go) | Longest Palindromic Subsequence                     |              DP |     Medium |
-
+|      [208](https://github.com/kekeon/leetcode/blob/master/trie/implement-trie-prefix-tree.go) | Implement Trie (Prefix Tree)                        |            Trie |     Medium |
 
 #### Run test case
-``
-go test -v -bench=./bit_test.go -test.run TestSingleNumber
-``
+
+`go test -v -bench=./bit_test.go -test.run TestSingleNumber`
