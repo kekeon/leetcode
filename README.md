@@ -210,6 +210,7 @@
 |       [413](https://github.com/kekeon/leetcode/blob/master/dp/number-of-arithmetic-slices.go) | Arithmetic Slices                                   |              DP |     Medium |
 |         [516](https://github.com/kekeon/leetcode/blob/master/dp/longest-palindrome-subseq.go) | Longest Palindromic Subsequence                     |              DP |     Medium |
 |      [208](https://github.com/kekeon/leetcode/blob/master/trie/implement-trie-prefix-tree.go) | Implement Trie (Prefix Tree)                        |            Trie |     Medium |
+|      [212](https://github.com/kekeon/leetcode/blob/master/trie/word-search-ii.go) | Word Search II                        |            Trie |     Medium |
 
 #### Run test case
 
